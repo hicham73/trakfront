@@ -1,0 +1,35 @@
+<div class="card card-shadow mb-4">
+    <div class="card-header">
+        <div class="card-title">
+            Sales Report
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr>
+                <th class="border-0 ">ID #</th>
+                <th class="border-0">Origine</th>
+                <th class="border-0">Destination</th>
+                <th class="border-0">Capacité</th>
+                <th class="border-0">Price</th>
+                <th class="border-0">Status</th>
+                <th class="border-0">Heure d'arrivé prévue</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let v of voyages">
+                <td>{{v.id}}</td>
+                <td>{{v.origine}}</td>
+                <td>{{v.destination}}</td>
+                <td>{{v.capacite}}</td>
+                <td>{{v.prixunit}}</td>
+                <td>
+                    <span class="badge badge-pill badge-primary">{{v.status}}</span>
+                </td>
+                <td>{{v.heure}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
