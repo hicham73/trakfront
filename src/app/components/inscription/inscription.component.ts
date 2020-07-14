@@ -7,6 +7,7 @@ import { GetUsersGQL, CreateUserGQL } from '../../services/graphql.service'
 import { GetUsersQuery } from '../../graphql/queries'
 import { map } from 'rxjs/operators'
 import { Observable } from 'rxjs'
+import { Trak } from '../../models/trak'
 
 @Component({
   selector: 'app-inscription',
@@ -15,25 +16,21 @@ import { Observable } from 'rxjs'
 })
 export class InscriptionComponent implements OnInit {
 
-  private users = [];
+  public users = [];
   private user: User;
   private loading = false;
   private createUserGQL: CreateUserGQL;
   private apollo: Apollo;
   private data: Observable<any>;
+  private traks: Trak[];
+
+
+
+
   
   constructor(private ngZone: NgZone, private readonly getUsersGQL: GetUsersGQL, createUserGQL: CreateUserGQL, apollo: Apollo) {
     this.createUserGQL = createUserGQL;
     this.apollo = apollo;
-
-
-    this.user = new User();
-
-    let u = new User();
-    u.prenom = 'Hicham';
-    u.nom = 'Wahbi';
-
-    this.users.push(u);
 
     // getUsersGQL.fetch().subscribe(({ data, loading }) => {
     //   this.loading = loading;
@@ -47,22 +44,20 @@ export class InscriptionComponent implements OnInit {
     // })
 
     
-    // this.apollo.watchQuery({query: GetUsersQuery}).valueChanges.subscribe( ({data}) => {
-    //   let res = data['getUsers'];
+    this.apollo.watchQuery({query: GetUsersQuery}).valueChanges.subscribe( ({data}) => {
+      this.users = data['getUsers'];
 
-    //   res.forEach(e => {
-    //     let u = new User();
-    //     u.prenom = e['prenom'];
-    //     u.nom = e['nom'];
+      this.user = new User();
 
-    //     this.users.push(u);
+      // res.forEach(e => {
+      //   let u = new User();
+      //   u.prenom = e['prenom'];
+      //   u.nom = e['nom'];
+
+      //   this.users.push(u);
         
-    //   });
-
-
-
-    //   window['users'] = this.users;
-    // })
+      // });
+    })
 
   }
 

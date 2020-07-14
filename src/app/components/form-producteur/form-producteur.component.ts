@@ -11,15 +11,24 @@ import { AppService } from '../../app.service'
 })
 export class FormProducteurComponent implements OnInit {
   private trak: Trak;
+  private traks: Trak[];
   private name: string = 'Nancy';
   constructor(private ngZone: NgZone, private appService: AppService) {
     
     this.trak = new Trak();
-    
     this.trak.id = ++appService.count;
     console.log('trak.id: ' + this.trak.id);
     this.trak.name = 'hello world!'
     this.trak.description = 'I am here for the first time';
+
+    this.traks = []; //new Array<Trak>(); 
+    let t = new Trak();
+    this.traks.push(t)
+    this.traks.push(t)
+    this.traks.push(t)
+    this.traks.push(t)
+    this.traks.push(t)
+    this.traks[0].name = "weired init"
 
     // Api.getTrak(1).then(function(data) {
 

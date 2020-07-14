@@ -1,6 +1,11 @@
 <div class="container">
     <form>
       {{trak.name}}
+      <div *ngFor="let x of traks">
+        <span>This is a Trak</span>
+        <span>{{x.name}}</span>
+
+      </div>
         <div class="form-group">
             <label for="id">ID:</label>
             <input [(ngModel)]="trak.id" type="text" class="form-control" id="id" placeholder="ID" name="id">
