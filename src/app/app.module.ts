@@ -8,11 +8,15 @@ import { AgmCoreModule } from '@agm/core';
 // import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { MyBarChartComponent } from './chart-bar/chart-bar.component';
-import { MySmallMapComponent } from './map/map.component';
-import { ReportSampleComponent } from './report-sample/report-sample.component';
-import { FormProducteurComponent } from './form-producteur/form-producteur.component';
-import { MainComponent } from './main/main.component';
+import { MyBarChartComponent } from './components/chart-bar/chart-bar.component';
+import { MySmallMapComponent } from './components/map/map.component';
+import { ReportSampleComponent } from './components/report-sample/report-sample.component';
+import { FormProducteurComponent } from './components/form-producteur/form-producteur.component';
+import { MainComponent } from './components/main/main.component';
+import { InscriptionComponent } from './components/inscription/inscription.component';
+import { FormSample1Component } from './components/form-sample1/form-sample1.component';
+import { GraphQLModule } from './graphql.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,9 @@ import { MainComponent } from './main/main.component';
     MySmallMapComponent,
     ReportSampleComponent,
     FormProducteurComponent,
-    MainComponent
+    MainComponent,
+    InscriptionComponent,
+    FormSample1Component
     // HttpClientModule
   ],
   imports: [
@@ -31,7 +37,7 @@ import { MainComponent } from './main/main.component';
     // ChartsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCDTdtGD64ASXwhuGE8Nc2slGNJ-q2B0w4'
-    })
+    }), GraphQLModule, HttpClientModule
     
   ],
   providers: [],
