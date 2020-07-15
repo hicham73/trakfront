@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { User } from '../../models/user';
 import { Api } from '../../util/api';
 import { Apollo } from 'apollo-angular'
-import { GetUsersGQL, CreateUserGQL } from '../../services/graphql.service'
-import { GetUsersQuery } from '../../graphql/queries'
+import { GetUsersGQL, CreateUserGQL, CreateUserDocument } from '../../services/graphql.service'
+import { GetUsersQuery, CreateUserQuery, UpdateUserQuery, DeleteUserQuery } from '../../graphql/queries'
 import { map } from 'rxjs/operators'
 import { Observable } from 'rxjs'
 import { Trak } from '../../models/trak'
+import { UV_UDP_REUSEADDR } from 'constants';
 
 @Component({
   selector: 'app-inscription',
@@ -32,33 +33,6 @@ export class InscriptionComponent implements OnInit {
     this.createUserGQL = createUserGQL;
     this.apollo = apollo;
 
-    // getUsersGQL.fetch().subscribe(({ data, loading }) => {
-    //   this.loading = loading;
-    //   console.log(data);
-    //   this.users = data.getUsers;
-    // });
-
-    // this.apollo.watchQuery({query: GetUsersQuery}).valueChanges.subscribe((data) => {
-    //     console.log(data.getUsers);
-
-    // })
-
-    
-    this.apollo.watchQuery({query: GetUsersQuery}).valueChanges.subscribe( ({data}) => {
-      this.users = data['getUsers'];
-
-      this.user = new User();
-
-      // res.forEach(e => {
-      //   let u = new User();
-      //   u.prenom = e['prenom'];
-      //   u.nom = e['nom'];
-
-      //   this.users.push(u);
-        
-      // });
-    })
-
   }
 
   selectUser(user: User) {
@@ -67,31 +41,64 @@ export class InscriptionComponent implements OnInit {
   }
 
   createUser() {
-    this.user.id = 0;
-    this.user.type = 1;
+    console.log('creating user...');
 
-    this.createUserGQL.mutate({
-      userInput: this.user
-    }).subscribe(({data}) => {
-      console.log('user created: ' + data.createUser);
-    })
+    delete this.user['__typename']; // avoid a problem, will find a better solution
 
-  }
+    this.apollo.mutate({
+      mutation: CreateUserQuery,
+      variables: { userInput: this.user}
+    }).subscribe(a => {
+      console.log('user created');
+    });
+
+  } 
 
   updateUser() {
-    this.user.id = 1;
-    this.user.type = 1;
 
-    this.createUserGQL.mutate({
-      userInput: this.user
-    }).subscribe(({data}) => {
-      console.log('user updated: ' + data.createUser);
-    })
+    if(!this.user) {
+      alert('select user');
+      return;
+    }
+
+    delete this.user['__typename']; // see create user
+
+    this.apollo.mutate({
+      mutation: UpdateUserQuery,
+      variables: { userInput: this.user}
+    }).subscribe(u => {
+      console.log(u);
+    });
 
   }
 
-  ngOnInit(): void {
+  deleteUser() {
+    let id = this.user.id;
+    if(!this.user.id) {
+      alert('select user');
+      return;
+    }
 
+    this.apollo.mutate({
+      mutation: DeleteUserQuery,
+      variables: { id: this.user.id}
+    }).subscribe(u => {
+      let idx = this.users.findIndex(x => x.id == id);
+      this.users.splice(idx+1,1);
+      if(this.users.length > 0)
+        this.user = this.users[0];
+
+      console.log(u);
+    });
+
+  }
+
+
+  ngOnInit(): void {
+    this.user = new User();
+    this.apollo.watchQuery({query: GetUsersQuery}).valueChanges.subscribe( ({data}) => {
+      this.users = data['getUsers'];
+    })
   }
 
 }
