@@ -17,6 +17,9 @@ import { InscriptionComponent } from './components/inscription/inscription.compo
 import { FormSample1Component } from './components/form-sample1/form-sample1.component';
 import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
+import { TransporteurComponent } from './components/transporteur/transporteur.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+
 
 @NgModule({
   declarations: [
@@ -27,13 +30,15 @@ import { HttpClientModule } from '@angular/common/http';
     FormProducteurComponent,
     MainComponent,
     InscriptionComponent,
-    FormSample1Component
+    FormSample1Component,
+    TransporteurComponent
     // HttpClientModule
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule,
-    AppRoutingModule,    
+    AppRoutingModule, 
+    NgImageSliderModule,
     // ChartsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCDTdtGD64ASXwhuGE8Nc2slGNJ-q2B0w4'

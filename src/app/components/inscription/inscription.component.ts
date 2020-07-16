@@ -1,14 +1,10 @@
 import { Component, OnInit, NgZone } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { User } from '../../models/user';
-import { Api } from '../../util/api';
 import { Apollo } from 'apollo-angular'
 import { GetUsersGQL, CreateUserGQL, CreateUserDocument } from '../../services/graphql.service'
 import { GetUsersQuery, CreateUserQuery, UpdateUserQuery, DeleteUserQuery } from '../../graphql/queries'
-import { map } from 'rxjs/operators'
 import { Observable } from 'rxjs'
 import { Trak } from '../../models/trak'
-import { UV_UDP_REUSEADDR } from 'constants';
 
 @Component({
   selector: 'app-inscription',
