@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$btn-padding-x-xs:  .20rem !default;
+$btn-padding-y-xs:  .12rem !default;
+$input-btn-line-height-xs: 1.1 !default;
+
+// .btn.btn-xs {
+//    // line-height: ensure proper height of button next to small input
+//    @include button-size($btn-padding-y-xs, $btn-padding-x-xs, $font-size-sm, $input-btn-line-height-xs, $btn-border-radius-sm);
+// }
+
+.btn-xs {
+    @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $line-height, $border-radius)
+}
+
+$theme-colors: (
+  "primary": yellow,
+  "danger": #ff4136
+);

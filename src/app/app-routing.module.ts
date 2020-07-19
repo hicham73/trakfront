@@ -8,6 +8,8 @@ import { MainComponent } from './components/main/main.component';
 import { InscriptionComponent } from './components/inscription/inscription.component';
 import { FormSample1Component } from './components/form-sample1/form-sample1.component';
 import { TransporteurComponent } from './components/transporteur/transporteur.component';
+import { VehiculeComponent } from './components/vehicule/vehicule.component';
+import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
 
 
 
@@ -20,7 +22,13 @@ const routes: Routes = [
   { path: 'form1', component: FormSample1Component },
   { path: 'inscription', component: InscriptionComponent },
   { path: 'report', component: ReportSampleComponent },
-  { path: 'transporteur', component: TransporteurComponent },
+  { path: 'transporteur', 
+    component: TransporteurComponent,
+    children: [
+      { path: '', component: TransporteurDetailComponent },
+      { path: 'vehicule', component: VehiculeComponent },
+    ] 
+  },
 ];
 
 @NgModule({

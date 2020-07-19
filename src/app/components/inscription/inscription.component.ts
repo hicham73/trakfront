@@ -1,10 +1,8 @@
 import { Component, OnInit, NgZone } from '@angular/core';
 import { User } from '../../models/user';
 import { Apollo } from 'apollo-angular'
-import { GetUsersGQL, CreateUserGQL, CreateUserDocument } from '../../services/graphql.service'
 import { GetUsersQuery, CreateUserQuery, UpdateUserQuery, DeleteUserQuery } from '../../graphql/queries'
 import { Observable } from 'rxjs'
-import { Trak } from '../../models/trak'
 
 @Component({
   selector: 'app-inscription',
@@ -16,17 +14,10 @@ export class InscriptionComponent implements OnInit {
   public users = [];
   private user: User;
   private loading = false;
-  private createUserGQL: CreateUserGQL;
   private apollo: Apollo;
   private data: Observable<any>;
-  private traks: Trak[];
 
-
-
-
-  
-  constructor(private ngZone: NgZone, private readonly getUsersGQL: GetUsersGQL, createUserGQL: CreateUserGQL, apollo: Apollo) {
-    this.createUserGQL = createUserGQL;
+  constructor(apollo: Apollo) {
     this.apollo = apollo;
 
   }

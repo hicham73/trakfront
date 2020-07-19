@@ -19,6 +19,10 @@ import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 import { TransporteurComponent } from './components/transporteur/transporteur.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { VehiculeComponent } from './components/vehicule/vehicule.component';
+import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
+
+
 
 
 @NgModule({
@@ -31,7 +35,9 @@ import { NgImageSliderModule } from 'ng-image-slider';
     MainComponent,
     InscriptionComponent,
     FormSample1Component,
-    TransporteurComponent
+    TransporteurComponent,
+    VehiculeComponent,
+    TransporteurDetailComponent,
     // HttpClientModule
   ],
   imports: [
