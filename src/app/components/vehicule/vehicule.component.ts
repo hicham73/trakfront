@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { GetVehiculesQuery, UpdateVehiculeQuery, CreateVehiculeQuery, DeleteVehiculeQuery } from '../../graphql/queries'
 import { Vehicule } from '../../models/vehicule'
 import { Apollo } from 'apollo-angular'
-import { Observable } from 'rxjs'
+
 
 @Component({
   selector: 'app-vehicule',
@@ -16,7 +16,8 @@ export class VehiculeComponent implements OnInit {
   public vehicules = [];
   private vehicule: Vehicule;
   private loading = false;
-  private data: Observable<any>;
+  
+  private file;
 
   imageObject = [
     {
@@ -58,7 +59,6 @@ export class VehiculeComponent implements OnInit {
   
   constructor(apollo: Apollo) {
     this.apollo = apollo
-
    }
 
   createVehicule() {
@@ -76,11 +76,7 @@ export class VehiculeComponent implements OnInit {
   } 
 
   updateVehicule() {
-
-    if(!this.vehicule) {
-      alert('select vehicule');
-      return;
-    }
+    this.view = 1;
 
     delete this.vehicule['__typename']; // see create vehicule
 
@@ -92,6 +88,43 @@ export class VehiculeComponent implements OnInit {
     });
 
   }
+
+  changeView(id: number): void {
+    this.view = id;
+  }
+
+  upsertVehicule() {
+
+    delete this.vehicule['__typename']; // avoid a problem, will find a better solution
+
+    if(!this.vehicule.id) {
+      console.log('creating vehicule...');
+      this.apollo.mutate({
+        mutation: CreateVehiculeQuery,
+        variables: { vehiculeInput: this.vehicule}
+      }).subscribe(res => {
+        let v = res['data']['createVehicule'] as Vehicule;
+        console.log('vehicule created');
+        console.log(v);
+        this.vehicule = v;
+        this.vehicules.push(v);
+
+      });
+    } else {
+      this.apollo.mutate({
+        mutation: UpdateVehiculeQuery,
+        variables: { vehiculeInput: this.vehicule}
+      }).subscribe(u => {
+
+
+        console.log(u);
+      });
+  
+    }
+
+
+  }
+
 
   deleteVehicule() {
     let id = this.vehicule.id;
@@ -114,7 +147,13 @@ export class VehiculeComponent implements OnInit {
 
   }
 
-  edit(): void {
+  edit(v: Vehicule): void {
+    this.view = 2;
+    this.vehicule = v;
+  }
+
+  addVehicule(): void {
+    this.vehicule = new Vehicule();
     this.view = 2;
   }
 

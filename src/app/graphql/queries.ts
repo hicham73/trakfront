@@ -121,3 +121,30 @@ mutation deleteVehicule($id: Int!) {
 }
 `;
 
+export const GetImagesQuery = gql`
+  query GetImages {
+    getImages {
+      id
+      data
+    }
+  }
+`
+export const CreateImageQuery = gql`
+mutation createImage($imageInput: ImageInput!) {
+  createImage(imageInput: $imageInput) {
+    id
+    data
+    vehicule {
+      id
+    }
+  }
+}
+`;
+
+export const DeleteImageQuery = gql`
+mutation deleteImage($id: Int!) {
+  deleteImage(id: $id) {
+    id
+  }
+}
+`;

@@ -21,6 +21,7 @@ import { TransporteurComponent } from './components/transporteur/transporteur.co
 import { NgImageSliderModule } from 'ng-image-slider';
 import { VehiculeComponent } from './components/vehicule/vehicule.component';
 import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
+import { ImageComponent } from './components/image/image.component';
 
 
 
@@ -38,6 +39,7 @@ import { TransporteurDetailComponent } from './components/transporteur-detail/tr
     TransporteurComponent,
     VehiculeComponent,
     TransporteurDetailComponent,
+    ImageComponent,
     // HttpClientModule
   ],
   imports: [

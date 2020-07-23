@@ -10,6 +10,7 @@ import { FormSample1Component } from './components/form-sample1/form-sample1.com
 import { TransporteurComponent } from './components/transporteur/transporteur.component';
 import { VehiculeComponent } from './components/vehicule/vehicule.component';
 import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
+import { ImageComponent } from './components/image/image.component'
 
 
 
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'form1', component: FormSample1Component },
   { path: 'inscription', component: InscriptionComponent },
   { path: 'report', component: ReportSampleComponent },
+  { path: 'image', component: ImageComponent },
   { path: 'transporteur', 
     component: TransporteurComponent,
     children: [
