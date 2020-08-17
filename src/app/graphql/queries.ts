@@ -50,10 +50,82 @@ mutation deleteUser($id: Int!) {
 }
 `;
 
+// Transpoteur ----------------------------------------
+export const GetTransporteursQuery = gql`
+query GetTransporteurs {
+  getTransporteurs {
+    id
+    type
+    prenom
+    nom
+    cin
+    nbrvehicules
+    nbrvoyages
+    cote
+  
+  }
+}
+`;
+
+export const GetTransporteurQuery = gql`
+query GetTransporteur($id: Int!) {
+  getTransporteur(id: $id) {
+    id
+    type
+    prenom
+    nom
+    cin
+    nbrvehicules
+    nbrvoyages
+    cote
+  
+  }
+}
+`;
+
+export const CreateTransporteurQuery = gql`
+mutation createTransporteur($transporteurInput: TransporteurInput!) {
+  createTransporteur(transporteurInput: $transporteurInput) {
+    type
+    nom
+    prenom
+   	cin
+   	permis
+   	isactive
+    nbrvehicules
+    nbrvoyages
+    cote
+    dateinscription
+    dateexpirationpermis
+  }
+}
+`;
+export const UpdateTransporteurQuery = gql`
+mutation updateTransporteur($transporteurInput: TransporteurInput!) {
+  updateTransporteur(transporteurInput: $transporteurInput) {
+    id
+    type
+    prenom
+    nom
+    cin
+    nbrvehicules
+    nbrvoyages
+    cote
+  }
+}
+`;
+
+export const DeleteTransporteurQuery = gql`
+mutation deleteTransporteur($id: Int!) {
+  deleteTransporteur(id: $id) {
+    id
+  }
+}
+`;
 // Vehicule -----------------------------
 export const GetVehiculesQuery = gql`
-query GetVehicules {
-  getVehicules {
+query GetVehicules($transporteurId: Int!) {
+  getVehicules(transporteurId: $transporteurId) {
     id
     fabricant
     modele
@@ -67,6 +139,10 @@ query GetVehicules {
     isactive
     transporteur {
       id
+    }
+    image {
+      id
+      data
     }
   }
 }
@@ -146,5 +222,11 @@ mutation deleteImage($id: Int!) {
   deleteImage(id: $id) {
     id
   }
+}
+`;
+
+export const SetImagePrincipaleQuery = gql`
+mutation setImagePrincipale($vehiculeId: Int!, $imageId: Int!) {
+  setImagePrincipale(vehiculeId: $vehiculeId, imageId: $imageId)
 }
 `;

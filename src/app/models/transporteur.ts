@@ -3,12 +3,23 @@ import { Chauffeur } from './chauffeur'
 
 export class Transporteur {
     id: number;
-    type: string;         // ............................................................... Moul L'Kamiou wella entreprise qui gère une flotte
-   	nom: string;          // ............................................................... Nom de l'entreprise si Type =Entreprise
-   	prenom?: string;      // ............................................................... Vide si entreprise
-   	cin: string;          // ............................................................... Vide si entreprise
-   	permis: string;       // ............................................................... Vide si entreprise
+    type: number;
+   	nom: string;
+   	prenom?: string;
+   	cin: string;
+   	permis: string;
     isactive: boolean;
+    nbrvehicules: number;
+    nbrvoyages: number;
+    cote: number;
+    dateinscription: Date;
     vehicules: Vehicule[];
     chauffeurs: Chauffeur[];
+
+    fullname() {
+        if(this.prenom || this.nom)
+            return `${this.prenom} ${this.nom}`
+        else
+            return 'Société'
+    }
 }

@@ -9,6 +9,17 @@
           slideImage="1"></ng-image-slider>
       </div> -->
   </div>
+  <div class="row" style="margin-bottom: 10px">
+    <div class="col-md-1"><img src="assets/img/shop.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/archive.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/arrow-left-square.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/type.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/truck.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/upc.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/truck-flatbed.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/dice-1.svg" alt="" width="32" height="32"></div>
+    <div class="col-md-1"><img src="assets/img/dice-2.svg" alt="" width="32" height="32"></div>
+  </div>
   <div class="row text-right">
     <div class="col-6">
       <h4 class="mb-3 text-left">Vehicules</h4>
@@ -17,64 +28,8 @@
       <button type="button" class="btn btn-info">Ajouter un vehicule</button>
     </div>
   </div>
-  <div class="row" *ngFor="let v of vehicules">
-    <div class="col-md-3">
-      <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/img/camion3.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-md-9">
-      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-      <h4>{{v.immatriculation}}</h4>
-      <div class="row">
-        <div class="col-md-4">
-          <label class="font-weight-bold">Modele</label>
-          {{v.modele}}
-        </div>
-        <div class="col-md-4">
-          <label class="font-weight-bold">Fabricant</label>
-          {{v.fabricant}}
-        </div>
-        <div class="col-md-4">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <label class="font-weight-bold">Carburant</label>
-          {{v.carburant}}
-        </div>
-        <div class="col-md-4">
-          <label class="font-weight-bold">Vitesse</label>
-          {{v.vitesse}}
-        </div>
-        <div class="col-md-4">
-          <label class="font-weight-bold">P. Tac</label>
-          {{v.ptac}}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <label class="font-weight-bold">Ville</label>
-          {{v.ville}}
-        </div>
-        <div class="col-md-4">
-          <label class="font-weight-bold">Actif</label>
-          {{v.isactive ? 'Oui' : 'Non'}}
-        </div>
-        <div class="col-md-4 text-right">
-          <button type="button" (click)="edit(v)" class="btn btn-outline-info">Editer</button>
-        </div>
-      </div>
-      
-    </div>
-    <hr class="mb-4">
 
-    <div class="row" style="padding:20px">
-    </div>
-
-
-
-  </div>
+  <routers-outlet></routers-outlet>
 
   <div class="row">
     <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="addVehicule()">Ajouter un vehicule</button></div>
@@ -82,67 +37,7 @@
 
 </div>
 
-<div class="container-fluid" *ngIf="view == 2">
-  <h5 class="mb-3">Formulaire vehicule</h5>
-  <form class="needs-validation" novalidate>
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <label for="fabricant">Fabricant</label>
-        <input type="text" [(ngModel)]="vehicule.fabricant" name="prenom" class="form-control" id="fabricant" placeholder="" value="" required>
-      </div>
-      <div class="col-md-4 mb-3">
-        <label for="modele">Modele</label>
-        <input type="text" [(ngModel)]="vehicule.modele" name="modele" class="form-control"  id="modele" placeholder="" value="" required>
-      </div>
-      <div class="col-md-4 mb-3">
-        <label for="type">Type</label>
-        <select class="custom-select d-block w-100" id="type" required>
-          <option value="">Choisir...</option>
-          <option>Type 1</option>
-          <option>Type 2</option>
-        </select>
-      </div>
 
-  
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <label for="immatriculation">Immatriculation</label>
-        <input type="text" [(ngModel)]="vehicule.immatriculation" name="immatriculation" class="form-control"  id="immatriculation" placeholder="" value="" required>
-      </div>
-      <div class="col-md-4 mb-3">
-        <label for="datemisecirculaion">Date mise en circulation</label>
-        <input type="text" class="form-control" id="datemisecirculaion" placeholder="1234 Main St" required>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <label for="ptac">P. Tac <span class="text-muted">(Optional)</span></label>
-        <input type="ptac"  [(ngModel)]="vehicule.ptac" name="email" class="form-control" id="ptac" placeholder="P.Tac">
-      </div>
-      <div class="col-md-4 mb-3">
-        <label for="vitesse">P. Tac <span class="text-muted">(Optional)</span></label>
-        <input type="text"  [(ngModel)]="vehicule.vitesse" name="email" class="form-control" id="vitesse" placeholder="Vitesse">
-      </div>
-      <div class="col-md-4 mb-3">
-        <label for="carburant">Carburant<span class="text-muted">(Optional)</span></label>
-        <input type="text" class="form-control" id="carburant" placeholder="Carburant">
-      </div>
-    </div>
-
-    <hr class="mb-4">
-    <div class="row">
-      <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="upsertVehicule()">Sauvegarder</button></div>
-      <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="deleteVehicule()">Supprimer</button></div>
-      <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="changeView(1)">Liste des vehicues</button></div>
-    </div>
-
-    <hr class="mb-4">
-  </form>
-  <app-image></app-image>
-</div>
 
 
 
