@@ -11,6 +11,8 @@ import { TransporteurComponent } from './components/transporteur/transporteur.co
 import { VehiculeComponent } from './components/vehicule/vehicule.component';
 import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
 import { ImageComponent } from './components/image/image.component'
+import { MesencheresComponent } from './components/mesencheres/mesencheres.component';
+import { PropositionsComponent } from './components/propositions/propositions.component';
 
 
 
@@ -31,6 +33,9 @@ const routes: Routes = [
       { path: 'vehicule', component: VehiculeComponent },
     ] 
   },
+  { path: 'mesencheres', component: MesencheresComponent },
+  { path: 'propositions', component: PropositionsComponent },
+
 ];
 
 @NgModule({
