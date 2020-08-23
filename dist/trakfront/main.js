@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n  <!-- <link rel=\"stylesheet\" href=\"../../node_modules/bootstrap/dist/css/bootstrap.min.css\"> -->\r\n  <!-- <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.7.0/css/all.css\" integrity=\"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ\" crossorigin=\"anonymous\"> -->\r\n  <!-- <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script> -->\r\n  <!-- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js\"></script> -->\r\n  <!-- <script src=\"../../node_modules/bootstrap/dist/css/bootstrap.min.js\"></script> -->\r\n\r\n</head>\r\n<body>\r\n  <nav class=\"navbar navbar-expand-md navbar-dark bg-dark fixed-top\">\r\n    <a class=\"navbar-brand\" href=\"#\">Maroc Trak</a>\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExampleDefault\" aria-controls=\"navbarsExampleDefault\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n      \r\n    </button>\r\n  \r\n    <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">\r\n      <ul class=\"navbar-nav mr-auto\">\r\n        <li class=\"nav-item active\">\r\n          <a class=\"nav-link\" routerLink=\"/\">Home<span class=\"sr-only\">(current)</span></a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/map\">Carte</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/report\">Liste</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/transporteurs\">Transporteurs</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/form\">Formulaire</a>\r\n        </li>\r\n        <li class=\"nav-item dropdown\">\r\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"dropdown01\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown</a>\r\n          <div class=\"dropdown-menu\" aria-labelledby=\"dropdown01\">\r\n            <a class=\"dropdown-item\" href=\"#\">Action</a>\r\n            <a class=\"dropdown-item\" href=\"#\">Another action</a>\r\n            <a class=\"dropdown-item\" href=\"#\">Something else here</a>\r\n          </div>\r\n        </li>\r\n      </ul>\r\n      <form class=\"form-inline my-2 my-lg-0\">\r\n        <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\" aria-label=\"Search\">\r\n        <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button>\r\n      </form>\r\n    </div>\r\n  </nav>\r\n\r\n<!-- <div class=\"navbar\">\r\n  <div class=\"logo\"><img src=\"logo.jpg\" style=\"height:40px\"></div>\r\n  <div>\r\n    <a href=\"#home\">Home</a>\r\n    <a href=\"#news\">News</a>\r\n    <a href=\"#contact\">Contact</a>\r\n  </div>\r\n</div> -->\r\n\r\n<div class=\"main\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n\r\n<!-- <div class=\"sidenav\">\r\n  <a href=\"#about\">About</a>\r\n  <a href=\"#services\">Services</a>\r\n  <a href=\"#clients\">Clients</a>\r\n  <a href=\"#contact\">Contact</a>\r\n</div> -->\r\n\r\n</body>\r\n</html>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n  <!-- <link rel=\"stylesheet\" href=\"../../node_modules/bootstrap/dist/css/bootstrap.min.css\"> -->\r\n  <!-- <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.7.0/css/all.css\" integrity=\"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ\" crossorigin=\"anonymous\"> -->\r\n  <!-- <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script> -->\r\n  <!-- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js\"></script> -->\r\n  <!-- <script src=\"../../node_modules/bootstrap/dist/css/bootstrap.min.js\"></script> -->\r\n\r\n</head>\r\n<body>\r\n  <nav class=\"navbar navbar-expand-md navbar-dark bg-dark fixed-top\">\r\n    <a class=\"navbar-brand\" href=\"#\">Maroc Trak</a>\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExampleDefault\" aria-controls=\"navbarsExampleDefault\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n      \r\n    </button>\r\n  \r\n    <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">\r\n      <ul class=\"navbar-nav mr-auto\">\r\n        <li class=\"nav-item active\">\r\n          <a class=\"nav-link\" routerLink=\"/\">Home<span class=\"sr-only\">(current)</span></a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/map\">Carte</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/report\">Liste</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/transporteurs\">Transporteurs</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/mesencheres\">Encheres</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" routerLink=\"/form\">Formulaire</a>\r\n        </li>\r\n        <li class=\"nav-item dropdown\">\r\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"dropdown01\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown</a>\r\n          <div class=\"dropdown-menu\" aria-labelledby=\"dropdown01\">\r\n            <a class=\"dropdown-item\" href=\"#\">Action</a>\r\n            <a class=\"dropdown-item\" href=\"#\">Another action</a>\r\n            <a class=\"dropdown-item\" href=\"#\">Something else here</a>\r\n          </div>\r\n        </li>\r\n      </ul>\r\n      <form class=\"form-inline my-2 my-lg-0\">\r\n        <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\" aria-label=\"Search\">\r\n        <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button>\r\n      </form>\r\n    </div>\r\n  </nav>\r\n\r\n<!-- <div class=\"navbar\">\r\n  <div class=\"logo\"><img src=\"logo.jpg\" style=\"height:40px\"></div>\r\n  <div>\r\n    <a href=\"#home\">Home</a>\r\n    <a href=\"#news\">News</a>\r\n    <a href=\"#contact\">Contact</a>\r\n  </div>\r\n</div> -->\r\n\r\n<div class=\"main\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n\r\n<!-- <div class=\"sidenav\">\r\n  <a href=\"#about\">About</a>\r\n  <a href=\"#services\">Services</a>\r\n  <a href=\"#clients\">Clients</a>\r\n  <a href=\"#contact\">Contact</a>\r\n</div> -->\r\n\r\n</body>\r\n</html>\r\n");
 
 /***/ }),
 
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"image-upload\">\n    <input name=\"imageUrl\" type=\"file\" accept=\"image/*\" (change)=\"handleInputChange($event)\" />\n</div>\n\n\n    <div class=\"d-flex flex-row flex-wrap\">\n        <div *ngFor=\"let i of images\" style=\"padding:4px\">\n            <img src=\"{{i.data}}\" style=\"height:150px;border:solid 4px gray\">\n            <div>\n                <button class=\"button\" (click)=\"deleteImage(i)\">Supprimer</button>\n                <button class=\"button\" (click)=\"setImagePricipale(i)\">Set Principale</button>\n            </div>\n            \n        </div>\n    </div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"image-upload\">\r\n    <input name=\"imageUrl\" type=\"file\" accept=\"image/*\" (change)=\"handleInputChange($event)\" />\r\n</div>\r\n\r\n\r\n    <div class=\"d-flex flex-row flex-wrap\">\r\n        <div *ngFor=\"let i of images\" style=\"padding:4px\">\r\n            <img src=\"{{i.data}}\" style=\"height:150px;border:solid 4px gray\">\r\n            <div>\r\n                <button class=\"button\" (click)=\"deleteImage(i)\">Supprimer</button>\r\n                <button class=\"button\" (click)=\"setImagePricipale(i)\">Set Principale</button>\r\n            </div>\r\n            \r\n        </div>\r\n    </div>\r\n");
 
 /***/ }),
 
@@ -88,6 +88,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/mesencheres/mesencheres.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/mesencheres/mesencheres.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div *ngFor=\"let enc of encheres\">\r\n    {{enc.id}}                 \r\n</div>\r\n\r\nlength: {{encheres.length}}\r\n\r\n<!-- <div class=\"container\">\r\n    <div class=\"table-responsive col-12\">\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>1..n</th>                    \r\n                    <th>Statut</th>                    \r\n                    <th>Marchandise</th>                    \r\n                    <th>Volume</th>                    \r\n                    <th>Départ</th>                   \r\n                    <th>Arrivée</th>                    \r\n                    <th>Unit. Prix</th>                    \r\n                    <th>Prix unitaire</th>                    \r\n                    <th>Commentaire</th>                    \r\n                    <th>Publiée, le</th>                    \r\n                    <th>Retirée, le</th>                    \r\n                    <th>Bidding</th>                    \r\n                </tr>\r\n            </thead>\r\n            <tbody>\r\n                <tr *ngFor=\"let enc of encheres\" (click)=\"selectEnchere(enc)\" >\r\n                    <td>{{enc.id}}</td>                    \r\n                    <td>{{enc.statut}}</td>                    \r\n                    <td>{{enc.marchandise}}</td>                    \r\n                    <td>{{enc.volume}}</td>                    \r\n                    <td>{{enc.villedepart}}</td>                    \r\n                    <td>{{enc.villearrivee}}</td>                    \r\n                    <td>{{enc.uniteprix}}</td>                    \r\n                    <td>{{enc.prixunitaire}}</td>                    \r\n                    <td>{{enc.commentaire}}</td>                    \r\n                    <td>{{enc.debutpublication}}</td>                    \r\n                    <td>{{enc.finpublication}}</td>                    \r\n                    <td>{{enc.nombrepropositions}}</td>                    \r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n</div>\r\n\r\n\r\n<br /><br /><br />\r\n<a class=\"nav-link\" routerLink=\"/propositions\">Les propositions</a>\r\n<br /><br /><br />\r\n<div class=\"container\">\r\n    <ng-form class=\"needs-validation\" novalidate>\r\n        <div class=\"row\">\r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"id\">Id (???)</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.id\" name=\"id\" class=\"form-control\" id=\"id\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner un index.\r\n                </div>\r\n            </div> \r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"marchandise\">Statut</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.statut\" name=\"statut\" class=\"form-control\" id=\"statut\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner le statut de l'enchère.\r\n                </div>\r\n            </div> \r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"marchandise\">Marchandise, Produit à transporter</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.marchandise\" name=\"marchandise\" class=\"form-control\" id=\"marchandise\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner le type de produit à transporter.\r\n                </div>\r\n            </div> \r\n            <div class=\"col-2 mb-6\">\r\n                &nbsp;&nbsp;\r\n            </div> \r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"volume\">Volume/Capacité</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.volume\" name=\"volume\" class=\"form-control\" id=\"volume\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                    Vous devez renseigner le volume prévu (valeur+unité).\r\n                </div>\r\n            </div>             \r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"villedepart\">Départ</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.villedepart\" name=\"villedepart\" class=\"form-control\" id=\"villedepart\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner le point de départ.\r\n                </div>\r\n            </div> \r\n            <div class=\"col-2 mb-6\">\r\n                &nbsp;&nbsp;\r\n            </div> \r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"villearrivee\">Arrivée</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.villearrivee\" name=\"villearrivee\" class=\"form-control\" id=\"villearrivee\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                    Vous devez renseigner la destination du voyage.\r\n                </div>\r\n            </div>             \r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-5 mb-6\">\r\n                <label for=\"uniteprix\">Unité facturable</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.uniteprix\" name=\"uniteprix\" class=\"form-control\" id=\"uniteprix\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner l'unité facturable.\r\n                </div>\r\n            </div> \r\n            <div class=\"col-2 mb-6\">\r\n                &nbsp;&nbsp;\r\n            </div> \r\n            <div class=\"col-5 mb-6\">\r\n\r\n                <label for=\"prixunitaire\">Prix unitaire</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.prixunitaire\" name=\"prixunitaire\" class=\"form-control\" id=\"prixunitaire\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner le prix unitaire.\r\n                </div>\r\n            </div>             \r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-10 mb-6\">\r\n                <label for=\"commentaire\">Commentaires</label>\r\n                <input type=\"textearea\" [(ngModel)]=\"enchere.commentaire\" name=\"commentaire\" class=\"form-control\" id=\"commentaire\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner toute information utile à la prise de l'enchère.\r\n                </div>\r\n            </div> \r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-5 mb-6\">\r\n\r\n                <label for=\"debutpublication\">Publiée le</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.debutpublication\" name=\"debutpublication\" class=\"form-control\" id=\"debutpublication\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                Vous devez renseigner la date de publication.\r\n                </div>\r\n            </div>\r\n            <div class=\"col-2 mb-6\">\r\n                &nbsp;&nbsp;\r\n            </div> \r\n            <div class=\"col-5 mb-6\">\r\n\r\n                <label for=\"finpublication\">Fin publication</label>\r\n                <input type=\"text\" [(ngModel)]=\"enchere.finpublication\" name=\"finpublication\" class=\"form-control\" id=\"finpublication\" placeholder=\"\" value=\"\" required>\r\n                <div class=\"invalid-feedback\">\r\n                    Vous devez renseigner la date de fin de publication.\r\n                </div>\r\n            </div>             \r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4 mb-3\"><button (click)=\"createEnchere()\" class=\"btn btn-primary btn-block\">Nouvelle</button></div>\r\n            <div class=\"col-md-4 mb-3\"><button (click)=\"updateEnchere()\" class=\"btn btn-primary btn-block\">Enregistrer</button></div>\r\n            <div class=\"col-md-4 mb-3\"><button (click)=\"deleteUser()\" class=\"btn btn-primary btn-block\">Supprimer</button></div>\r\n\r\n          </div>        \r\n\r\n        </ng-form>\r\n</div> -->\r\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/propositions/propositions.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/propositions/propositions.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>propositions works!</p>\r\n<div class=\"container\">\r\n    <div class=\"table-responsive col-12\">\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>Index</th>                    \r\n                    <th>Statut</th>                    \r\n                    <th>Prix unitaire</th>                    \r\n                    <th>Commentaires</th>                    \r\n                    <th>Date</th>                    \r\n                </tr>\r\n            </thead>\r\n            <tbody>\r\n                <tr *ngFor=\"let prop of propositions\" >\r\n                    <td>{{prop.id}}</td>                    \r\n                    <td>{{prop.statut}}</td>                    \r\n                    <td>{{prop.prixunitaire}}</td>                    \r\n                    <td>{{prop.commentaire}}</td>                    \r\n                    <td>{{prop.date}}</td>                    \r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    <br /><br /><br />\r\n    <a class=\"nav-link\" routerLink=\"/mesencheres\">Mes enchères</a>\r\n</div>\r\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/report-sample/report-sample.component.html":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/report-sample/report-sample.component.html ***!
@@ -110,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<!-- <div class=\"row\">\n  <div style=\"width: 840px; height: 200px; text-align:center;margin:0; padding:0;\">\n    <ng-image-slider #nav\n    [images]=\"imageObject\"\n    [infinite]=\"false\"\n    [autoSlide]=\"1\"\n    [imageSize]=\"{width: '25%', height: 200}\"\n    slideImage=\"1\"></ng-image-slider>\n  </div>\n</div> -->\n<h5 class=\"mb-3\">Profile Transporteur</h5>\n<form class=\"needs-validation\" novalidate>\n  <div class=\"row\">\n    <div class=\"col-md-4 mb-3\">\n      <label for=\"prenom\">Prénom</label>\n      <input type=\"text\" [(ngModel)]=\"store.transporteur.prenom\" name=\"prenom\" class=\"form-control\" id=\"prenom\" placeholder=\"Prenom\">\n    </div>\n    <div class=\"col-md-4 mb-3\">\n      <label for=\"nom\">Nom</label>\n      <input type=\"text\" [(ngModel)]=\"store.transporteur.nom\" name=\"nom\" class=\"form-control\"  id=\"nom\" placeholder=\"Nom\">\n    </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-4 mb-3\">\n    <label for=\"cin\">CIN</label>\n    <input type=\"text\" [(ngModel)]=\"store.transporteur.cin\" name=\"cin\" class=\"form-control\" id=\"cin\" placeholder=\"CIN\">\n  </div>\n  <div class=\"col-md-4 mb-3\">\n    <label for=\"permis\">Permis</label>\n    <input type=\"text\"  [(ngModel)]=\"store.transporteur.permis\" name=\"permis\" class=\"form-control\"  id=\"permis\" placeholder=\"Permis\">\n  </div>\n  <div class=\"col-md-4 mb-3\">\n    <label for=\"dateexpirationpermis\">Date Exp.</label>\n    <input type=\"text\"  [(ngModel)]=\"store.transporteur.dateexpirationpermis\" name=\"dateexpirationpermis\" class=\"form-control\"  id=\"dateexpirationpermis\" placeholder=\"Date Exp.\">\n  </div>\n</div>\n<div class=\"row\">\n  <div class=\"col-md-4 mb-3\">\n    <label for=\"dateinscription\">Date inscription</label>\n    <input type=\"text\"  [(ngModel)]=\"store.transporteur.dateinscription\" name=\"dateinscription\" class=\"form-control\"  id=\"dateinscription\" placeholder=\"Date inscription\">\n  </div>\n  <div class=\"col-md-4 mb-3\">\n    <label for=\"nbrvehicules\">Nbr. vehicule</label>\n    <input type=\"number\"  [(ngModel)]=\"store.transporteur.nbrvehicules\" name=\"nbrvehicules\" class=\"form-control\"  id=\"nbrvehicules\" placeholder=\"Nbr. vehicules\">\n  </div>\n  <div class=\"col-md-4 mb-3\">\n    <label for=\"nbr\">Nbr. voyages</label>\n    <input type=\"number\"  [(ngModel)]=\"store.transporteur.nbrvoyages\" name=\"nbrvoyages\" class=\"form-control\"  id=\"nbrvoyages\" placeholder=\"Nbr. voyages\">\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-2 mb-3\">\n    <label for=\"dateinscription\">Cote</label>\n    <input type=\"number\"  [(ngModel)]=\"store.transporteur.cote\" name=\"permis\" class=\"form-control\"  id=\"cote\" placeholder=\"Cote\">\n  </div>\n</div>\n\n  <div class=\"custom-control custom-checkbox\">\n    <input type=\"checkbox\" class=\"custom-control-input\" id=\"same-address\">\n    <label class=\"custom-control-label\" for=\"same-address\">Actif</label>\n  </div>\n\n  <hr class=\"mb-4\">\n\n  <h5 class=\"mb-3\">Adresse</h5>\n  <div class=\"row\">\n    <div class=\"col-md-5 mb-3\">\n      <label for=\"country\">Pays</label>\n      <select class=\"custom-select d-block w-100\" id=\"country\" required>\n        <option value=\"\">Choisir...</option>\n        <option>Maroc</option>\n      </select>\n    </div>\n    <div class=\"col-md-4 mb-3\">\n      <label for=\"state\">Ville</label>\n      <select class=\"custom-select d-block w-100\" id=\"state\" required>\n        <option value=\"\">Choisir...</option>\n        <option>Rabat</option>\n        <option>Casablanca</option>\n        <option>Tanger</option>\n        <option>Fes</option>\n      </select>\n    </div>\n    <div class=\"col-md-3 mb-3\">\n      <label for=\"zip\">Code postal</label>\n      <input type=\"text\" class=\"form-control\" id=\"zip\" placeholder=\"\" required>\n      <div class=\"invalid-feedback\">\n        Zip code required.\n      </div>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-4 mb-3\"><button (click)=\"addTransporteur()\" class=\"btn btn-primary btn-lg btn-block\">Creer</button></div>\n    <div class=\"col-md-4 mb-3\"><button (click)=\"upsertTransporteur()\" class=\"btn btn-primary btn-lg btn-block\">Sauvegarder</button></div>\n    <div class=\"col-md-4 mb-3\"><button (click)=\"deleteTransporteur()\" class=\"btn btn-primary btn-lg btn-block\">Supprimer</button></div>\n  </div>\n</form>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<!-- <div class=\"row\">\r\n  <div style=\"width: 840px; height: 200px; text-align:center;margin:0; padding:0;\">\r\n    <ng-image-slider #nav\r\n    [images]=\"imageObject\"\r\n    [infinite]=\"false\"\r\n    [autoSlide]=\"1\"\r\n    [imageSize]=\"{width: '25%', height: 200}\"\r\n    slideImage=\"1\"></ng-image-slider>\r\n  </div>\r\n</div> -->\r\n<h5 class=\"mb-3\">Profile Transporteur</h5>\r\n<form class=\"needs-validation\" novalidate>\r\n  <div class=\"row\">\r\n    <div class=\"col-md-4 mb-3\">\r\n      <label for=\"prenom\">Prénom</label>\r\n      <input type=\"text\" [(ngModel)]=\"store.transporteur.prenom\" name=\"prenom\" class=\"form-control\" id=\"prenom\" placeholder=\"Prenom\">\r\n    </div>\r\n    <div class=\"col-md-4 mb-3\">\r\n      <label for=\"nom\">Nom</label>\r\n      <input type=\"text\" [(ngModel)]=\"store.transporteur.nom\" name=\"nom\" class=\"form-control\"  id=\"nom\" placeholder=\"Nom\">\r\n    </div>\r\n</div>\r\n\r\n<div class=\"row\">\r\n  <div class=\"col-md-4 mb-3\">\r\n    <label for=\"cin\">CIN</label>\r\n    <input type=\"text\" [(ngModel)]=\"store.transporteur.cin\" name=\"cin\" class=\"form-control\" id=\"cin\" placeholder=\"CIN\">\r\n  </div>\r\n  <div class=\"col-md-4 mb-3\">\r\n    <label for=\"permis\">Permis</label>\r\n    <input type=\"text\"  [(ngModel)]=\"store.transporteur.permis\" name=\"permis\" class=\"form-control\"  id=\"permis\" placeholder=\"Permis\">\r\n  </div>\r\n  <div class=\"col-md-4 mb-3\">\r\n    <label for=\"dateexpirationpermis\">Date Exp.</label>\r\n    <input type=\"text\"  [(ngModel)]=\"store.transporteur.dateexpirationpermis\" name=\"dateexpirationpermis\" class=\"form-control\"  id=\"dateexpirationpermis\" placeholder=\"Date Exp.\">\r\n  </div>\r\n</div>\r\n<div class=\"row\">\r\n  <div class=\"col-md-4 mb-3\">\r\n    <label for=\"dateinscription\">Date inscription</label>\r\n    <input type=\"text\"  [(ngModel)]=\"store.transporteur.dateinscription\" name=\"dateinscription\" class=\"form-control\"  id=\"dateinscription\" placeholder=\"Date inscription\">\r\n  </div>\r\n  <div class=\"col-md-4 mb-3\">\r\n    <label for=\"nbrvehicules\">Nbr. vehicule</label>\r\n    <input type=\"number\"  [(ngModel)]=\"store.transporteur.nbrvehicules\" name=\"nbrvehicules\" class=\"form-control\"  id=\"nbrvehicules\" placeholder=\"Nbr. vehicules\">\r\n  </div>\r\n  <div class=\"col-md-4 mb-3\">\r\n    <label for=\"nbr\">Nbr. voyages</label>\r\n    <input type=\"number\"  [(ngModel)]=\"store.transporteur.nbrvoyages\" name=\"nbrvoyages\" class=\"form-control\"  id=\"nbrvoyages\" placeholder=\"Nbr. voyages\">\r\n  </div>\r\n</div>\r\n\r\n<div class=\"row\">\r\n  <div class=\"col-md-2 mb-3\">\r\n    <label for=\"dateinscription\">Cote</label>\r\n    <input type=\"number\"  [(ngModel)]=\"store.transporteur.cote\" name=\"permis\" class=\"form-control\"  id=\"cote\" placeholder=\"Cote\">\r\n  </div>\r\n</div>\r\n\r\n  <div class=\"custom-control custom-checkbox\">\r\n    <input type=\"checkbox\" class=\"custom-control-input\" id=\"same-address\">\r\n    <label class=\"custom-control-label\" for=\"same-address\">Actif</label>\r\n  </div>\r\n\r\n  <hr class=\"mb-4\">\r\n\r\n  <h5 class=\"mb-3\">Adresse</h5>\r\n  <div class=\"row\">\r\n    <div class=\"col-md-5 mb-3\">\r\n      <label for=\"country\">Pays</label>\r\n      <select class=\"custom-select d-block w-100\" id=\"country\" required>\r\n        <option value=\"\">Choisir...</option>\r\n        <option>Maroc</option>\r\n      </select>\r\n    </div>\r\n    <div class=\"col-md-4 mb-3\">\r\n      <label for=\"state\">Ville</label>\r\n      <select class=\"custom-select d-block w-100\" id=\"state\" required>\r\n        <option value=\"\">Choisir...</option>\r\n        <option>Rabat</option>\r\n        <option>Casablanca</option>\r\n        <option>Tanger</option>\r\n        <option>Fes</option>\r\n      </select>\r\n    </div>\r\n    <div class=\"col-md-3 mb-3\">\r\n      <label for=\"zip\">Code postal</label>\r\n      <input type=\"text\" class=\"form-control\" id=\"zip\" placeholder=\"\" required>\r\n      <div class=\"invalid-feedback\">\r\n        Zip code required.\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col-md-4 mb-3\"><button (click)=\"addTransporteur()\" class=\"btn btn-primary btn-lg btn-block\">Creer</button></div>\r\n    <div class=\"col-md-4 mb-3\"><button (click)=\"upsertTransporteur()\" class=\"btn btn-primary btn-lg btn-block\">Sauvegarder</button></div>\r\n    <div class=\"col-md-4 mb-3\"><button (click)=\"deleteTransporteur()\" class=\"btn btn-primary btn-lg btn-block\">Supprimer</button></div>\r\n  </div>\r\n</form>\r\n");
 
 /***/ }),
 
@@ -123,7 +149,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\" *ngFor=\"let t of store.transporteurs\">\n    <div class=\"col-md-3\">\n        <img class=\"img-fluid rounded mb-3 mb-md-0\" src=\"../../../assets/img/camion3.jpg\" alt=\"\" (click)=\"navToTransporteur(t)\">\n    </div>\n    <div class=\"col-md-9\">\n      <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\"></span>\n      <h4>{{t.fullname}}</h4>\n      <div class=\"row\">\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">Type</label>{{t.type}}</div>\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">CIN</label>{{t.cin}}</div>\n        <div class=\"col-md-4\"></div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">Nbr. vehicules</label>{{t.nbrvehicules}}</div>\n      </div>\n      <!-- <div class=\"row\">\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">Carburant</label>{{t.carburant}}</div>\n      </div> -->\n      \n    </div>\n    <hr class=\"mb-4\">\n\n    <div class=\"row\" style=\"padding:20px\">\n    </div>\n\n  </div>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\" *ngFor=\"let t of store.transporteurs\">\r\n    <div class=\"col-md-3\">\r\n        <img class=\"img-fluid rounded mb-3 mb-md-0\" src=\"../../../assets/img/camion3.jpg\" alt=\"\" (click)=\"navToTransporteur(t)\">\r\n    </div>\r\n    <div class=\"col-md-9\">\r\n      <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\"></span>\r\n      <h4>{{t.fullname}}</h4>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">Type</label>{{t.type}}</div>\r\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">CIN</label>{{t.cin}}</div>\r\n        <div class=\"col-md-4\"></div>\r\n      </div>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">Nbr. vehicules</label>{{t.nbrvehicules}}</div>\r\n      </div>\r\n      <!-- <div class=\"row\">\r\n        <div class=\"col-md-4\"><label class=\"font-weight-bold\">Carburant</label>{{t.carburant}}</div>\r\n      </div> -->\r\n      \r\n    </div>\r\n    <hr class=\"mb-4\">\r\n\r\n    <div class=\"row\" style=\"padding:20px\">\r\n    </div>\r\n\r\n  </div>\r\n\r\n");
 
 /***/ }),
 
@@ -136,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"container\">\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-4 order-md-1 mb-4\">\r\n        <div class=\"card\" style=\"width: 18rem;\">\r\n            <ul class=\"list-group list-group-flush\">\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/person.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                <a href=\"#\" class=\"card-link\" [routerLink]=\"['.']\">Profile Transporteur</a>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/truck.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                <a href=\"#\" class=\"card-link\" [routerLink]=\"['./vehicules']\">Vehicules</a>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/truck.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                <a href=\"#\" class=\"card-link\" [routerLink]=\"['./enroute']\">Vehicules en route</a>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <h5>\r\n                  <img src=\"assets/img/map.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                  <span class=\"badge badge-info\" (click)=\"nav(['/map'])\">Voayges</span>\r\n                </h5>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/code.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                Preferences\r\n              </li>\r\n            </ul>\r\n            <div class=\"card-body\">\r\n              <a href=\"#\" class=\"card-link\">Vehicules</a>\r\n              <a href=\"#\" class=\"card-link\">Voyages</a>\r\n            </div>\r\n            <img class=\"card-img-top\" src=\"../../../assets/img/camion1.jpg\" style=\"width:200px;margin:auto\">\r\n            <div class=\"card-body\">\r\n              <h5 class=\"card-title\">Card title</h5>\r\n              <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n            </div>            \r\n            <img class=\"card-img-top\" src=\"../../../assets/img/camion2.jpg\"  style=\"width:200px;margin:auto\"> \r\n            <div class=\"card-body\">\r\n              <h5 class=\"card-title\">Card title</h5>\r\n              <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n            </div>            \r\n            <img class=\"card-img-top\" src=\"../../../assets/img/camion3.jpg\"  style=\"width:200px;margin:auto\">\r\n            <div class=\"card-body\">\r\n              <h5 class=\"card-title\">Card title</h5>\r\n              <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n            </div>            \r\n          </div>\r\n      </div>\r\n      <div class=\"col-md-8 order-md-2\">\r\n        <router-outlet></router-outlet>\r\n      </div>\r\n    </div>\r\n\r\n    <footer class=\"my-5 pt-5 text-muted text-center text-small\">\r\n      <p class=\"mb-1\">&copy; 2020-2021 Trak Inc.</p>\r\n      <ul class=\"list-inline\">\r\n        <li class=\"list-inline-item\"><a href=\"#\">Privacy</a></li>\r\n        <li class=\"list-inline-item\"><a href=\"#\">Terms</a></li>\r\n        <li class=\"list-inline-item\"><a href=\"#\">Support</a></li>\r\n      </ul>\r\n    </footer>\r\n  </div>\r\n\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"container-fluid\">\r\n    <div class=\"row\">\r\n      <div class=\"w-600 order-md-1 .d-none .d-md-block .d-lg-none\">\r\n        <div class=\"card\" style=\"width: 18rem;\">\r\n            <ul class=\"list-group list-group-flush\">\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/person.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                <a href=\"#\" class=\"card-link\" [routerLink]=\"['.']\">Profile Transporteur</a>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/truck.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                <a href=\"#\" class=\"card-link\" [routerLink]=\"['./vehicules']\">Vehicules</a>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/truck.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                <a href=\"#\" class=\"card-link\" [routerLink]=\"['./enroute']\">Vehicules en route</a>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <h5>\r\n                  <img src=\"assets/img/map.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                  <span class=\"badge badge-info\" (click)=\"nav(['/map'])\">Voayges</span>\r\n                </h5>\r\n              </li>\r\n              <li class=\"list-group-item\">\r\n                <img src=\"assets/img/code.svg\" alt=\"\" width=\"25\" height=\"25\" style=\"margin-right:10px\">\r\n                Preferences\r\n              </li>\r\n            </ul>\r\n            <div class=\"card-body\">\r\n              <a href=\"#\" class=\"card-link\">Vehicules</a>\r\n              <a href=\"#\" class=\"card-link\">Voyages</a>\r\n            </div>\r\n            <img class=\"card-img-top\" src=\"../../../assets/img/camion1.jpg\" style=\"width:200px;margin:auto\">\r\n            <div class=\"card-body\">\r\n              <h5 class=\"card-title\">Card title</h5>\r\n              <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n            </div>            \r\n            <img class=\"card-img-top\" src=\"../../../assets/img/camion2.jpg\"  style=\"width:200px;margin:auto\"> \r\n            <div class=\"card-body\">\r\n              <h5 class=\"card-title\">Card title</h5>\r\n              <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n            </div>            \r\n            <img class=\"card-img-top\" src=\"../../../assets/img/camion3.jpg\"  style=\"width:200px;margin:auto\">\r\n            <div class=\"card-body\">\r\n              <h5 class=\"card-title\">Card title</h5>\r\n              <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n            </div>            \r\n          </div>\r\n      </div>\r\n      <div class=\"col order-md-2\">\r\n        <router-outlet></router-outlet>\r\n      </div>\r\n    </div>\r\n\r\n    <footer class=\"my-5 pt-5 text-muted text-center text-small\">\r\n      <p class=\"mb-1\">&copy; 2020-2021 Trak Inc.</p>\r\n      <ul class=\"list-inline\">\r\n        <li class=\"list-inline-item\"><a href=\"#\">Privacy</a></li>\r\n        <li class=\"list-inline-item\"><a href=\"#\">Terms</a></li>\r\n        <li class=\"list-inline-item\"><a href=\"#\">Support</a></li>\r\n      </ul>\r\n    </footer>\r\n  </div>\r\n\r\n");
 
 /***/ }),
 
@@ -149,7 +175,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n    <h5 class=\"mb-3\">Formulaire vehicule</h5>\n    <form class=\"needs-validation\" novalidate>\n      <div class=\"row\">\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"fabricant\">Fabricant</label>\n          <input type=\"text\" [(ngModel)]=\"store.vehicule.fabricant\" name=\"prenom\" class=\"form-control\" id=\"fabricant\" placeholder=\"\" value=\"\" required>\n        </div>\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"modele\">Modele</label>\n          <input type=\"text\" [(ngModel)]=\"store.vehicule.modele\" name=\"modele\" class=\"form-control\"  id=\"modele\" placeholder=\"\" value=\"\" required>\n        </div>\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"type\">Type</label>\n          <select class=\"custom-select d-block w-100\" id=\"type\" required>\n            <option value=\"\">Choisir...</option>\n            <option>Type 1</option>\n            <option>Type 2</option>\n          </select>\n        </div>\n  \n    \n      </div>\n  \n      <div class=\"row\">\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"immatriculation\">Immatriculation</label>\n          <input type=\"text\" [(ngModel)]=\"store.vehicule.immatriculation\" name=\"immatriculation\" class=\"form-control\"  id=\"immatriculation\" placeholder=\"\" value=\"\" required>\n        </div>\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"datemisecirculaion\">Date mise en circulation</label>\n          <input type=\"text\" class=\"form-control\" id=\"datemisecirculaion\" placeholder=\"1234 Main St\" required>\n        </div>\n      </div>\n  \n      <div class=\"row\">\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"ptac\">P. Tac <span class=\"text-muted\">(Optional)</span></label>\n          <input type=\"number\"  [(ngModel)]=\"store.vehicule.ptac\" name=\"email\" class=\"form-control\" id=\"ptac\" placeholder=\"P.Tac\">\n        </div>\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"vitesse\">P. Tac <span class=\"text-muted\">(Optional)</span></label>\n          <input type=\"text\"  [(ngModel)]=\"store.vehicule.vitesse\" name=\"email\" class=\"form-control\" id=\"vitesse\" placeholder=\"Vitesse\">\n        </div>\n        <div class=\"col-md-4 mb-3\">\n          <label for=\"carburant\">Carburant<span class=\"text-muted\">(Optional)</span></label>\n          <input type=\"text\" class=\"form-control\" id=\"carburant\" placeholder=\"Carburant\">\n        </div>\n      </div>\n  \n      <hr class=\"mb-4\">\n      <div class=\"row\">\n        <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"upsertVehicule()\">Sauvegarder</button></div>\n        <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"deleteVehicule()\">Supprimer</button></div>\n        <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"changeView(1)\">Liste des vehicues</button></div>\n      </div>\n  \n      <hr class=\"mb-4\">\n    </form>\n    <app-image [vehiculeId]=\"store.vehicule.id\"></app-image>\n</div>\n  ");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\r\n    <h5 class=\"mb-3\">Formulaire vehicule</h5>\r\n    <form class=\"needs-validation\" novalidate>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"fabricant\">Fabricant</label>\r\n          <input type=\"text\" [(ngModel)]=\"store.vehicule.fabricant\" name=\"prenom\" class=\"form-control\" id=\"fabricant\" placeholder=\"\" value=\"\" required>\r\n        </div>\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"modele\">Modele</label>\r\n          <input type=\"text\" [(ngModel)]=\"store.vehicule.modele\" name=\"modele\" class=\"form-control\"  id=\"modele\" placeholder=\"\" value=\"\" required>\r\n        </div>\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"type\">Type</label>\r\n          <select class=\"custom-select d-block w-100\" id=\"type\" required>\r\n            <option value=\"\">Choisir...</option>\r\n            <option>Type 1</option>\r\n            <option>Type 2</option>\r\n          </select>\r\n        </div>\r\n  \r\n    \r\n      </div>\r\n  \r\n      <div class=\"row\">\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"immatriculation\">Immatriculation</label>\r\n          <input type=\"text\" [(ngModel)]=\"store.vehicule.immatriculation\" name=\"immatriculation\" class=\"form-control\"  id=\"immatriculation\" placeholder=\"\" value=\"\" required>\r\n        </div>\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"datemisecirculaion\">Date mise en circulation</label>\r\n          <input type=\"text\" class=\"form-control\" id=\"datemisecirculaion\" placeholder=\"1234 Main St\" required>\r\n        </div>\r\n      </div>\r\n  \r\n      <div class=\"row\">\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"ptac\">P. Tac <span class=\"text-muted\">(Optional)</span></label>\r\n          <input type=\"number\"  [(ngModel)]=\"store.vehicule.ptac\" name=\"email\" class=\"form-control\" id=\"ptac\" placeholder=\"P.Tac\">\r\n        </div>\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"vitesse\">P. Tac <span class=\"text-muted\">(Optional)</span></label>\r\n          <input type=\"text\"  [(ngModel)]=\"store.vehicule.vitesse\" name=\"email\" class=\"form-control\" id=\"vitesse\" placeholder=\"Vitesse\">\r\n        </div>\r\n        <div class=\"col-md-4 mb-3\">\r\n          <label for=\"carburant\">Carburant<span class=\"text-muted\">(Optional)</span></label>\r\n          <input type=\"text\" class=\"form-control\" id=\"carburant\" placeholder=\"Carburant\">\r\n        </div>\r\n      </div>\r\n  \r\n      <hr class=\"mb-4\">\r\n      <div class=\"row\">\r\n        <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"upsertVehicule()\">Sauvegarder</button></div>\r\n        <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"deleteVehicule()\">Supprimer</button></div>\r\n        <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"changeView(1)\">Liste des vehicues</button></div>\r\n      </div>\r\n  \r\n      <hr class=\"mb-4\">\r\n    </form>\r\n    <app-image [vehiculeId]=\"store.vehicule.id\"></app-image>\r\n</div>\r\n  ");
 
 /***/ }),
 
@@ -162,7 +188,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\" *ngFor=\"let v of store.vehicules\">\n    <div class=\"col-md-3\">\n      <a href=\"#\">\n        <img class=\"img-fluid rounded mb-3 mb-md-0\" src=\"{{v.image?.data}}\" alt=\"\">\n      </a>\n    </div>\n    <div class=\"col-md-9\">\n      <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\"></span>\n      <h4>{{v.immatriculation}}</h4>\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">Modele</label>\n          {{v.modele}}\n        </div>\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">Fabricant</label>\n          {{v.fabricant}}\n        </div>\n        <div class=\"col-md-4\">\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">Carburant</label>\n          {{v.carburant}}\n        </div>\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">Vitesse</label>\n          {{v.vitesse}}\n        </div>\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">P. Tac</label>\n          {{v.ptac}}\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">Ville</label>\n          {{v.ville}}\n        </div>\n        <div class=\"col-md-4\">\n          <label class=\"font-weight-bold\">Actif</label>\n          {{v.isactive ? 'Oui' : 'Non'}}\n        </div>\n        <div class=\"col-md-4 text-right\">\n          <button type=\"button\" (click)=\"edit(v)\" class=\"btn btn-outline-info\">Editer</button>\n        </div>\n      </div>\n      \n    </div>\n    <hr class=\"mb-4\">\n\n    <div class=\"row\" style=\"padding:20px\">\n    </div>\n\n\n\n  </div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\" *ngFor=\"let v of store.vehicules\">\r\n    <div class=\"col-md-3\">\r\n      <a href=\"#\">\r\n        <img class=\"img-fluid rounded mb-3 mb-md-0\" src=\"{{v.image?.data}}\" alt=\"\">\r\n      </a>\r\n    </div>\r\n    <div class=\"col-md-9\">\r\n      <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\"></span>\r\n      <h4>{{v.immatriculation}}</h4>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">Modele</label>\r\n          {{v.modele}}\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">Fabricant</label>\r\n          {{v.fabricant}}\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n        </div>\r\n      </div>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">Carburant</label>\r\n          {{v.carburant}}\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">Vitesse</label>\r\n          {{v.vitesse}}\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">P. Tac</label>\r\n          {{v.ptac}}\r\n        </div>\r\n      </div>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">Ville</label>\r\n          {{v.ville}}\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n          <label class=\"font-weight-bold\">Actif</label>\r\n          {{v.isactive ? 'Oui' : 'Non'}}\r\n        </div>\r\n        <div class=\"col-md-4 text-right\">\r\n          <button type=\"button\" (click)=\"edit(v)\" class=\"btn btn-outline-info\">Editer</button>\r\n        </div>\r\n      </div>\r\n      \r\n    </div>\r\n    <hr class=\"mb-4\">\r\n\r\n    <div class=\"row\" style=\"padding:20px\">\r\n    </div>\r\n\r\n\r\n\r\n  </div>\r\n");
 
 /***/ }),
 
@@ -175,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\n    <div class=\"col-5\">\n        <form class=\"form-inline\">\n            <i class=\"fas fa-search\" aria-hidden=\"true\"></i>\n            <input class=\"form-control form-control-sm ml-3 w-20\" type=\"text\" placeholder=\"Depart\" aria-label=\"Depart\">\n            <input class=\"form-control form-control-sm ml-3 w-20\" type=\"text\" placeholder=\"Destination\" aria-label=\"Destination\">\n        </form>\n        <div class=\"media text-muted pt-3\">\n            <svg height=\"100px\" width=\"50px\">\n            <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\n            <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            </svg>\n            <p class=\"media-body pb-3 mb-0 small lh-125 border-bottom border-gray\">\n            <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\n            <span class=\"d-block text-gray\"></span>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\n            <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\n            </p>\n        </div>\n        <div class=\"media text-muted pt-3\">\n            <svg height=\"100px\" width=\"50px\">\n            <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\n            <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            </svg>\n            <p class=\"media-body pb-3 mb-0 small lh-125 border-bottom border-gray\">\n            <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\n            <span class=\"d-block text-gray\"></span>\n            <span class=\"d-block text-gray\"></span>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\n            <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\n            </p>\n        </div>\n        <div class=\"media text-muted pt-3\">\n            <svg height=\"100px\" width=\"50px\">\n            <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\n            <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            </svg>\n            <p class=\"media-body pb-3 mb-0 small lh-125 border-bottom border-gray\">\n            <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\n            <span class=\"d-block text-gray\"></span>\n            <span class=\"d-block text-gray\"></span>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\n            <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\n            </p>\n        </div>\n        <div class=\"media text-muted pt-3\">\n            <svg height=\"100px\" width=\"50px\">\n            <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\n            <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\n            </svg>\n            <p class=\"media-body pb-3 mb-0 small lh-125 border-bottom border-gray\">\n            <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\n            <span class=\"d-block text-gray\"></span>\n            <span class=\"d-block text-gray\"></span>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\n            <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\n            </p>\n        </div>\n        <small class=\"d-block text-right mt-3\">\n            <a href=\"#\">All updates</a>\n        </small>\n    </div>\n    <div class=\"col-7\">\n        <agm-map [latitude]=\"lat\" [longitude]=\"lng\">\n            <agm-marker *ngFor=\"let loc of locations\" [latitude]=\"loc.lat\" [longitude]=\"loc.lng\"></agm-marker>\n        </agm-map>\n    </div>\n</div>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\r\n    <div class=\"col-5\">\r\n        <form class=\"form-inline\">\r\n            <i class=\"fas fa-search\" aria-hidden=\"true\"></i>\r\n            <input class=\"form-control form-control-sm ml-3 w-20\" type=\"text\" placeholder=\"Depart\" aria-label=\"Depart\">\r\n            <input class=\"form-control form-control-sm ml-3 w-20\" type=\"text\" placeholder=\"Destination\" aria-label=\"Destination\">\r\n        </form>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-1\">\r\n                <svg height=\"100px\" width=\"50px\">\r\n                    <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\r\n                    <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\r\n                    <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\r\n                </svg>\r\n            </div>\r\n            <div class=\"col-11\">\r\n                <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\r\n                <span class=\"d-block text-gray\"></span>\r\n                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\r\n                <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\r\n            </div>\r\n        </div>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-1\">\r\n                <svg height=\"100px\" width=\"50px\">\r\n                    <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\r\n                    <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\r\n                    <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\r\n                </svg>\r\n            </div>\r\n            <div class=\"col-11\">\r\n                <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\r\n                <span class=\"d-block text-gray\"></span>\r\n                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\r\n                <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\r\n            </div>\r\n        </div>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-1\">\r\n                <svg height=\"100px\" width=\"50px\">\r\n                    <ellipse cx=\"10\" cy=\"10\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\r\n                    <line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"80\" style=\"fill:gray;stroke:deepskyblue;stroke-width:2\" />\r\n                    <ellipse cx=\"10\" cy=\"80\" rx=\"2\" ry=\"2\" style=\"fill:black;stroke:black;stroke-width:2\" />\r\n                </svg>\r\n            </div>\r\n            <div class=\"col-11\">\r\n                <strong class=\"d-inline text-gray-dark\"><span></span>Rabat 11:30 AM</strong>\r\n                <span class=\"d-block text-gray\"></span>\r\n                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\r\n                <strong class=\"d-block text-gray-dark\">Casablanca 01:00 PM </strong>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-7\">\r\n        <!-- <agm-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n            <agm-marker *ngFor=\"let loc of locations\" [latitude]=\"loc.lat\" [longitude]=\"loc.lng\"></agm-marker>\r\n        </agm-map> -->\r\n        <agm-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n            <agm-direction  [origin]=\"origin\" \r\n                            [destination]=\"destination\" \r\n                            [waypoints]=\"waypoints\"\r\n                            ></agm-direction>\r\n                            <!-- [markerOptions]=\"markerOptions\"\r\n                            [renderOptions]=\"renderOptions\" -->\r\n          </agm-map>\r\n    </div>\r\n</div>\r\n\r\n");
 
 /***/ }),
 
@@ -188,7 +214,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\" *ngIf=\"view == 1\">\n  <div class=\"row\">\n      <!-- <div style=\"width: 840px; height: 200px; text-align:center;margin:0; padding:0;\">\n          <ng-image-slider #nav\n          [images]=\"imageObject\"\n          [infinite]=\"false\"\n          [autoSlide]=\"1\"\n          [imageSize]=\"{width: '25%', height: 200}\"\n          slideImage=\"1\"></ng-image-slider>\n      </div> -->\n  </div>\n  <div class=\"row\" style=\"margin-bottom: 10px\">\n    <div class=\"col-md-1\"><img src=\"assets/img/shop.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/archive.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/arrow-left-square.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/type.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/truck.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/upc.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/truck-flatbed.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/dice-1.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n    <div class=\"col-md-1\"><img src=\"assets/img/dice-2.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\n  </div>\n  <div class=\"row text-right\">\n    <div class=\"col-6\">\n      <h4 class=\"mb-3 text-left\">Vehicules</h4>\n    </div>\n    <div class=\"col-6\">\n      <button type=\"button\" class=\"btn btn-info\">Ajouter un vehicule</button>\n    </div>\n  </div>\n\n  <routers-outlet></routers-outlet>\n\n  <div class=\"row\">\n    <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"addVehicule()\">Ajouter un vehicule</button></div>\n  </div>\n\n</div>\n\n\n\n\n\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\" *ngIf=\"view == 1\">\r\n  <div class=\"row\">\r\n      <!-- <div style=\"width: 840px; height: 200px; text-align:center;margin:0; padding:0;\">\r\n          <ng-image-slider #nav\r\n          [images]=\"imageObject\"\r\n          [infinite]=\"false\"\r\n          [autoSlide]=\"1\"\r\n          [imageSize]=\"{width: '25%', height: 200}\"\r\n          slideImage=\"1\"></ng-image-slider>\r\n      </div> -->\r\n  </div>\r\n  <div class=\"row\" style=\"margin-bottom: 10px\">\r\n    <div class=\"col-md-1\"><img src=\"assets/img/shop.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/archive.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/arrow-left-square.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/type.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/truck.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/upc.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/truck-flatbed.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/dice-1.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n    <div class=\"col-md-1\"><img src=\"assets/img/dice-2.svg\" alt=\"\" width=\"32\" height=\"32\"></div>\r\n  </div>\r\n  <div class=\"row text-right\">\r\n    <div class=\"col-6\">\r\n      <h4 class=\"mb-3 text-left\">Vehicules</h4>\r\n    </div>\r\n    <div class=\"col-6\">\r\n      <button type=\"button\" class=\"btn btn-info\">Ajouter un vehicule</button>\r\n    </div>\r\n  </div>\r\n\r\n  <routers-outlet></routers-outlet>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col-md-3 mb-3\"><button class=\"btn btn-outline-info\" (click)=\"addVehicule()\">Ajouter un vehicule</button></div>\r\n  </div>\r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n");
 
 /***/ }),
 
@@ -215,7 +241,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_transporteur_detail_transporteur_detail_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/transporteur-detail/transporteur-detail.component */ "./src/app/components/transporteur-detail/transporteur-detail.component.ts");
 /* harmony import */ var _components_transporteur_list_transporteur_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/transporteur-list/transporteur-list.component */ "./src/app/components/transporteur-list/transporteur-list.component.ts");
 /* harmony import */ var _components_image_image_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/image/image.component */ "./src/app/components/image/image.component.ts");
-/* harmony import */ var _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/vehicule-route/vehicule-route.component */ "./src/app/components/vehicule-route/vehicule-route.component.ts");
+/* harmony import */ var _components_mesencheres_mesencheres_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/mesencheres/mesencheres.component */ "./src/app/components/mesencheres/mesencheres.component.ts");
+/* harmony import */ var _components_propositions_propositions_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/propositions/propositions.component */ "./src/app/components/propositions/propositions.component.ts");
+/* harmony import */ var _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/vehicule-route/vehicule-route.component */ "./src/app/components/vehicule-route/vehicule-route.component.ts");
+
+
 
 
 
@@ -242,7 +272,7 @@ const routes = [
         component: _components_transporteur_transporteur_component__WEBPACK_IMPORTED_MODULE_7__["TransporteurComponent"],
         children: [
             { path: '', component: _components_transporteur_detail_transporteur_detail_component__WEBPACK_IMPORTED_MODULE_10__["TransporteurDetailComponent"] },
-            { path: 'enroute', component: _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_13__["VehiculeRouteComponent"] },
+            { path: 'enroute', component: _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_15__["VehiculeRouteComponent"] },
             { path: 'vehicules', component: _components_vehicule_list_vehicule_list_component__WEBPACK_IMPORTED_MODULE_9__["VehiculeListComponent"] },
             { path: 'vehicule',
                 component: _components_vehicule_detail_vehicule_detail_component__WEBPACK_IMPORTED_MODULE_8__["VehiculeDetailComponent"],
@@ -250,9 +280,11 @@ const routes = [
                     { path: 'detail', component: _components_vehicule_detail_vehicule_detail_component__WEBPACK_IMPORTED_MODULE_8__["VehiculeDetailComponent"] }
                 ]
             },
-            { path: 'voyages', component: _components_map_map_component__WEBPACK_IMPORTED_MODULE_3__["MySmallMapComponent"] },
+            { path: 'voyages', component: _components_map_map_component__WEBPACK_IMPORTED_MODULE_3__["MySmallMapComponent"] }
         ]
-    }
+    },
+    { path: 'mesencheres', component: _components_mesencheres_mesencheres_component__WEBPACK_IMPORTED_MODULE_13__["MesencheresComponent"] },
+    { path: 'propositions', component: _components_propositions_propositions_component__WEBPACK_IMPORTED_MODULE_14__["PropositionsComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -327,22 +359,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/__ivy_ngcc__/fesm2015/agm-core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_map_map_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/map/map.component */ "./src/app/components/map/map.component.ts");
-/* harmony import */ var _components_report_sample_report_sample_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/report-sample/report-sample.component */ "./src/app/components/report-sample/report-sample.component.ts");
-/* harmony import */ var _components_main_main_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/main/main.component */ "./src/app/components/main/main.component.ts");
-/* harmony import */ var _components_inscription_inscription_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/inscription/inscription.component */ "./src/app/components/inscription/inscription.component.ts");
-/* harmony import */ var _graphql_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./graphql.module */ "./src/app/graphql.module.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _components_transporteur_transporteur_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/transporteur/transporteur.component */ "./src/app/components/transporteur/transporteur.component.ts");
-/* harmony import */ var ng_image_slider__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ng-image-slider */ "./node_modules/ng-image-slider/__ivy_ngcc__/fesm2015/ng-image-slider.js");
-/* harmony import */ var _components_vehicule_vehicule_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/vehicule/vehicule.component */ "./src/app/components/vehicule/vehicule.component.ts");
-/* harmony import */ var _components_transporteur_detail_transporteur_detail_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/transporteur-detail/transporteur-detail.component */ "./src/app/components/transporteur-detail/transporteur-detail.component.ts");
-/* harmony import */ var _components_image_image_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/image/image.component */ "./src/app/components/image/image.component.ts");
-/* harmony import */ var _components_transporteur_list_transporteur_list_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/transporteur-list/transporteur-list.component */ "./src/app/components/transporteur-list/transporteur-list.component.ts");
-/* harmony import */ var _components_vehicule_detail_vehicule_detail_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/vehicule-detail/vehicule-detail.component */ "./src/app/components/vehicule-detail/vehicule-detail.component.ts");
-/* harmony import */ var _components_vehicule_list_vehicule_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/vehicule-list/vehicule-list.component */ "./src/app/components/vehicule-list/vehicule-list.component.ts");
-/* harmony import */ var _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/vehicule-route/vehicule-route.component */ "./src/app/components/vehicule-route/vehicule-route.component.ts");
+/* harmony import */ var agm_direction__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! agm-direction */ "./node_modules/agm-direction/__ivy_ngcc__/fesm2015/agm-direction.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_map_map_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/map/map.component */ "./src/app/components/map/map.component.ts");
+/* harmony import */ var _components_report_sample_report_sample_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/report-sample/report-sample.component */ "./src/app/components/report-sample/report-sample.component.ts");
+/* harmony import */ var _components_main_main_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/main/main.component */ "./src/app/components/main/main.component.ts");
+/* harmony import */ var _components_inscription_inscription_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/inscription/inscription.component */ "./src/app/components/inscription/inscription.component.ts");
+/* harmony import */ var _graphql_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./graphql.module */ "./src/app/graphql.module.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _components_transporteur_transporteur_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/transporteur/transporteur.component */ "./src/app/components/transporteur/transporteur.component.ts");
+/* harmony import */ var ng_image_slider__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ng-image-slider */ "./node_modules/ng-image-slider/__ivy_ngcc__/fesm2015/ng-image-slider.js");
+/* harmony import */ var _components_vehicule_vehicule_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/vehicule/vehicule.component */ "./src/app/components/vehicule/vehicule.component.ts");
+/* harmony import */ var _components_transporteur_detail_transporteur_detail_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/transporteur-detail/transporteur-detail.component */ "./src/app/components/transporteur-detail/transporteur-detail.component.ts");
+/* harmony import */ var _components_image_image_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/image/image.component */ "./src/app/components/image/image.component.ts");
+/* harmony import */ var _components_transporteur_list_transporteur_list_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/transporteur-list/transporteur-list.component */ "./src/app/components/transporteur-list/transporteur-list.component.ts");
+/* harmony import */ var _components_vehicule_detail_vehicule_detail_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/vehicule-detail/vehicule-detail.component */ "./src/app/components/vehicule-detail/vehicule-detail.component.ts");
+/* harmony import */ var _components_vehicule_list_vehicule_list_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/vehicule-list/vehicule-list.component */ "./src/app/components/vehicule-list/vehicule-list.component.ts");
+/* harmony import */ var _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/vehicule-route/vehicule-route.component */ "./src/app/components/vehicule-route/vehicule-route.component.ts");
+
 
 
 
@@ -371,32 +405,34 @@ let AppModule = class AppModule {
 AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-            _components_map_map_component__WEBPACK_IMPORTED_MODULE_7__["MySmallMapComponent"],
-            _components_report_sample_report_sample_component__WEBPACK_IMPORTED_MODULE_8__["ReportSampleComponent"],
-            _components_main_main_component__WEBPACK_IMPORTED_MODULE_9__["MainComponent"],
-            _components_inscription_inscription_component__WEBPACK_IMPORTED_MODULE_10__["InscriptionComponent"],
-            _components_transporteur_transporteur_component__WEBPACK_IMPORTED_MODULE_13__["TransporteurComponent"],
-            _components_vehicule_vehicule_component__WEBPACK_IMPORTED_MODULE_15__["VehiculeComponent"],
-            _components_transporteur_detail_transporteur_detail_component__WEBPACK_IMPORTED_MODULE_16__["TransporteurDetailComponent"],
-            _components_image_image_component__WEBPACK_IMPORTED_MODULE_17__["ImageComponent"],
-            _components_transporteur_list_transporteur_list_component__WEBPACK_IMPORTED_MODULE_18__["TransporteurListComponent"],
-            _components_vehicule_detail_vehicule_detail_component__WEBPACK_IMPORTED_MODULE_19__["VehiculeDetailComponent"],
-            _components_vehicule_list_vehicule_list_component__WEBPACK_IMPORTED_MODULE_20__["VehiculeListComponent"],
-            _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_21__["VehiculeRouteComponent"],
+            _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+            _components_map_map_component__WEBPACK_IMPORTED_MODULE_8__["MySmallMapComponent"],
+            _components_report_sample_report_sample_component__WEBPACK_IMPORTED_MODULE_9__["ReportSampleComponent"],
+            _components_main_main_component__WEBPACK_IMPORTED_MODULE_10__["MainComponent"],
+            _components_inscription_inscription_component__WEBPACK_IMPORTED_MODULE_11__["InscriptionComponent"],
+            _components_transporteur_transporteur_component__WEBPACK_IMPORTED_MODULE_14__["TransporteurComponent"],
+            _components_vehicule_vehicule_component__WEBPACK_IMPORTED_MODULE_16__["VehiculeComponent"],
+            _components_transporteur_detail_transporteur_detail_component__WEBPACK_IMPORTED_MODULE_17__["TransporteurDetailComponent"],
+            _components_image_image_component__WEBPACK_IMPORTED_MODULE_18__["ImageComponent"],
+            _components_transporteur_list_transporteur_list_component__WEBPACK_IMPORTED_MODULE_19__["TransporteurListComponent"],
+            _components_vehicule_detail_vehicule_detail_component__WEBPACK_IMPORTED_MODULE_20__["VehiculeDetailComponent"],
+            _components_vehicule_list_vehicule_list_component__WEBPACK_IMPORTED_MODULE_21__["VehiculeListComponent"],
+            _components_vehicule_route_vehicule_route_component__WEBPACK_IMPORTED_MODULE_22__["VehiculeRouteComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"].withServerTransition({ appId: 'serverApp' }),
             _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
-            ng_image_slider__WEBPACK_IMPORTED_MODULE_14__["NgImageSliderModule"],
+            ng_image_slider__WEBPACK_IMPORTED_MODULE_15__["NgImageSliderModule"],
             // ChartsModule,
             _agm_core__WEBPACK_IMPORTED_MODULE_5__["AgmCoreModule"].forRoot({
                 apiKey: 'AIzaSyCDTdtGD64ASXwhuGE8Nc2slGNJ-q2B0w4'
-            }), _graphql_module__WEBPACK_IMPORTED_MODULE_11__["GraphQLModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClientModule"]
+            }), _graphql_module__WEBPACK_IMPORTED_MODULE_12__["GraphQLModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClientModule"],
+            agm_direction__WEBPACK_IMPORTED_MODULE_6__["AgmDirectionModule"]
         ],
         providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })
 ], AppModule);
 
@@ -748,6 +784,180 @@ MySmallMapComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     }),
     Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
 ], MySmallMapComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/mesencheres/mesencheres.component.css":
+/*!******************************************************************!*\
+  !*** ./src/app/components/mesencheres/mesencheres.component.css ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbWVzZW5jaGVyZXMvbWVzZW5jaGVyZXMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/components/mesencheres/mesencheres.component.ts":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/mesencheres/mesencheres.component.ts ***!
+  \*****************************************************************/
+/*! exports provided: MesencheresComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MesencheresComponent", function() { return MesencheresComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var apollo_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! apollo-angular */ "./node_modules/apollo-angular/__ivy_ngcc__/fesm2015/ngApollo.js");
+/* harmony import */ var _graphql_queries__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../graphql/queries */ "./src/app/graphql/queries.ts");
+/* harmony import */ var _models_enchere__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../models/enchere */ "./src/app/models/enchere.ts");
+
+
+
+
+// import { CreateEnchereGQL, CreateEnchereDocument } from '../../services/graphql.service'
+
+
+let MesencheresComponent = class MesencheresComponent {
+    //constructor(private ngZone: NgZone, createEnchereGQL: CreateEnchereGQL, apollo: Apollo, private route: ActivatedRoute) { 
+    constructor(apollo, route) {
+        this.route = route;
+        //encheres:string[][] ; 
+        this.encheres = [];
+        this.apollo = apollo;
+        //this.createEnchereGQL = createEnchereGQL;
+    }
+    ngOnInit() {
+        this.enchere = new _models_enchere__WEBPACK_IMPORTED_MODULE_5__["Enchere"]();
+        this.apollo.watchQuery({ query: _graphql_queries__WEBPACK_IMPORTED_MODULE_4__["GetEncheresDUnExpediteur"] }).valueChanges.subscribe(({ data }) => {
+            this.encheres = data['getEncheresDUnExpediteur'];
+            console.log(this.encheres);
+            for (var i = 0; i < this.encheres.length; i++) {
+                var longuedate = "" + this.encheres[i]['debutpublication'];
+                this.encheres[i]['debutpublication'] = longuedate.substring(0, 10);
+                longuedate = "" + this.encheres[i]['finpublication'];
+                this.encheres[i]['finpublication'] = longuedate.substring(0, 10);
+                this.encheres[i]['nombrepropositions'] = this.encheres[i]['propositions'].length;
+                if (this.encheres[i]['propositions'].length > 0) {
+                    console.log('il y a ' + this.encheres[i]['propositions'].length + ' propositions pour l enchere ' + i);
+                }
+            }
+        });
+    }
+    selectEnchere(uneenchere) {
+        this.enchere = uneenchere;
+        console.log(`j ai pris une enchere. Sa marchandise => ${uneenchere.marchandise}`);
+    }
+    createEnchere() {
+        console.log('je crée une nouvelle enchère...');
+        delete this.enchere['__typename']; // avoid a problem, will find a better solution
+        this.enchere.id = Number(this.enchere.id);
+        this.enchere.prixunitaire = Number(this.enchere.prixunitaire);
+        //this.enchere.expediteurid = 1
+        this.apollo.mutate({
+            mutation: _graphql_queries__WEBPACK_IMPORTED_MODULE_4__["CreateEnchereMutation"],
+            variables: { enchereInput: this.enchere }
+        }).subscribe(enc => {
+            console.log('j ai initié et reçu le retour d une nouvelle enchère');
+        });
+    }
+    updateEnchere() {
+        console.log('je rentre dans update...');
+        if (!this.enchere) {
+            alert(`Vous devez sélectionner lenchère à modifier`);
+            return;
+        }
+        delete this.enchere['__typename']; // see create user
+        this.apollo.mutate({
+            mutation: _graphql_queries__WEBPACK_IMPORTED_MODULE_4__["UpdateEnchereMutation"],
+            variables: { enchereInput: this.enchere }
+        }).subscribe(enc => {
+            console.log(enc);
+        });
+    }
+};
+MesencheresComponent.ctorParameters = () => [
+    { type: apollo_angular__WEBPACK_IMPORTED_MODULE_3__["Apollo"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
+];
+MesencheresComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-mesencheres',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./mesencheres.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/mesencheres/mesencheres.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./mesencheres.component.css */ "./src/app/components/mesencheres/mesencheres.component.css")).default]
+    }),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [apollo_angular__WEBPACK_IMPORTED_MODULE_3__["Apollo"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+], MesencheresComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/propositions/propositions.component.css":
+/*!********************************************************************!*\
+  !*** ./src/app/components/propositions/propositions.component.css ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvcG9zaXRpb25zL3Byb3Bvc2l0aW9ucy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/propositions/propositions.component.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/components/propositions/propositions.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: PropositionsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PropositionsComponent", function() { return PropositionsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var apollo_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! apollo-angular */ "./node_modules/apollo-angular/__ivy_ngcc__/fesm2015/ngApollo.js");
+/* harmony import */ var _graphql_queries__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../graphql/queries */ "./src/app/graphql/queries.ts");
+
+
+
+
+let PropositionsComponent = class PropositionsComponent {
+    constructor(apollo) {
+        this.propositions = [];
+        this.apollo = apollo;
+    }
+    ngOnInit() {
+        this.apollo.watchQuery({ query: _graphql_queries__WEBPACK_IMPORTED_MODULE_3__["GetPropositionsDUneEnchere"] }).valueChanges.subscribe(({ data }) => {
+            this.propositions = data['getPropositionsDUneEnchere'];
+            var formatdatetime = "";
+            for (var i = 0; i < this.propositions.length; i++) {
+                formatdatetime = this.propositions[i]['date'];
+                this.propositions[i]['date'] = formatdatetime.substring(0, 10) + ' ' + formatdatetime.substring(11, 19);
+            }
+        });
+    }
+};
+PropositionsComponent.ctorParameters = () => [
+    { type: apollo_angular__WEBPACK_IMPORTED_MODULE_2__["Apollo"] }
+];
+PropositionsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-propositions',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./propositions.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/propositions/propositions.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./propositions.component.css */ "./src/app/components/propositions/propositions.component.css")).default]
+    }),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [apollo_angular__WEBPACK_IMPORTED_MODULE_2__["Apollo"]])
+], PropositionsComponent);
 
 
 
@@ -1417,7 +1627,7 @@ VehiculeListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmVoaWN1bGUtcm91dGUvdmVoaWN1bGUtcm91dGUuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("agm-map {\r\n    height: 600px;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92ZWhpY3VsZS1yb3V0ZS92ZWhpY3VsZS1yb3V0ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtFQUNmIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92ZWhpY3VsZS1yb3V0ZS92ZWhpY3VsZS1yb3V0ZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYWdtLW1hcCB7XHJcbiAgICBoZWlnaHQ6IDYwMHB4O1xyXG4gIH0iXX0= */");
 
 /***/ }),
 
@@ -1436,25 +1646,50 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let VehiculeRouteComponent = class VehiculeRouteComponent {
+    // lat = 30.573109;
+    // lng = -6.589843;
+    // public locations = [
+    //   {lat: 33.573109, lng: -7.589843},
+    //   {lat: 33.971588, lng: -6.849813},
+    //   {lat: 30.427755, lng: -9.598107},
+    //   {lat: 35.759464, lng: -5.833954},
+    //   {lat: 31.629473, lng: -7.981084},
+    // ]
     constructor() {
-        this.lat = 30.573109;
-        this.lng = -6.589843;
-        this.locations = [
-            { lat: 33.573109, lng: -7.589843 },
-            { lat: 33.971588, lng: -6.849813 },
-            { lat: 30.427755, lng: -9.598107 },
-            { lat: 35.759464, lng: -5.833954 },
-            { lat: 31.629473, lng: -7.981084 },
+        this.lat = 33.9716;
+        this.lng = 6.8498;
+        this.markerOptions = {
+            origin: {
+                icon: 'https://www.shareicon.net/data/32x32/2016/04/28/756617_face_512x512.png',
+                draggable: true,
+            },
+            destination: {
+                icon: 'https://www.shareicon.net/data/32x32/2016/04/28/756626_face_512x512.png',
+                // label: 'MARKER LABEL',
+                infoWindow: `<h5>En route<h5>`
+            },
+            waypoints: [
+                { icon: 'https://www.shareicon.net/data/32x32/2016/04/28/756626_face_512x512.png' }
+            ]
+        };
+        this.renderOptions = {
+            suppressMarkers: true,
+        };
+        this.origin = { lat: 33.9716, lng: -6.8498 };
+        this.destination = { lat: 35.1744, lng: -6.1474 };
+        this.waypoints = [
+            { location: { lat: 34.2541, lng: -5.5890 } },
         ];
     }
     ngOnInit() {
-        for (var j = 1; j < 30; j++) {
-            let rnd1 = Math.random();
-            let rnd2 = Math.random();
-            let lat1 = this.lat + 5 * (0.5 - rnd1);
-            let lng1 = this.lng + 5 * (0.5 - rnd2);
-            this.locations.push({ lat: lat1, lng: lng1 });
-        }
+        // for(var j = 1; j < 30; j++)
+        // {
+        //   let rnd1 = Math.random();
+        //   let rnd2 = Math.random();
+        //     let lat1 = this.lat + 5 * (0.5 - rnd1);
+        //     let lng1 = this.lng + 5 * (0.5 - rnd2);
+        //     this.locations.push({lat: lat1, lng: lng1});
+        // }
     }
 };
 VehiculeRouteComponent.ctorParameters = () => [];
@@ -1595,7 +1830,7 @@ GraphQLModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 /*!************************************!*\
   !*** ./src/app/graphql/queries.ts ***!
   \************************************/
-/*! exports provided: GetUsersQuery, CreateUserQuery, UpdateUserQuery, DeleteUserQuery, GetTransporteursQuery, GetTransporteurQuery, CreateTransporteurQuery, UpdateTransporteurQuery, DeleteTransporteurQuery, GetVehiculesQuery, CreateVehiculeQuery, UpdateVehiculeQuery, DeleteVehiculeQuery, GetImagesQuery, CreateImageQuery, DeleteImageQuery, SetImagePrincipaleQuery */
+/*! exports provided: GetUsersQuery, CreateUserQuery, UpdateUserQuery, DeleteUserQuery, GetTransporteursQuery, GetTransporteurQuery, CreateTransporteurQuery, UpdateTransporteurQuery, DeleteTransporteurQuery, GetVehiculesQuery, CreateVehiculeQuery, UpdateVehiculeQuery, DeleteVehiculeQuery, GetImagesQuery, CreateImageQuery, DeleteImageQuery, GetEncheresEtLeursExpediteursQuery, GetEncheresDUnExpediteur, GetPropositionsDUneEnchere, UpdateEnchereMutation, CreateEnchereMutation, getExpediteursEncheres, GetEncheresSimpleQuery, GetExpediteursSimpleQuery, SetImagePrincipaleQuery */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1616,6 +1851,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetImagesQuery", function() { return GetImagesQuery; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreateImageQuery", function() { return CreateImageQuery; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DeleteImageQuery", function() { return DeleteImageQuery; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetEncheresEtLeursExpediteursQuery", function() { return GetEncheresEtLeursExpediteursQuery; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetEncheresDUnExpediteur", function() { return GetEncheresDUnExpediteur; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetPropositionsDUneEnchere", function() { return GetPropositionsDUneEnchere; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UpdateEnchereMutation", function() { return UpdateEnchereMutation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreateEnchereMutation", function() { return CreateEnchereMutation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getExpediteursEncheres", function() { return getExpediteursEncheres; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetEncheresSimpleQuery", function() { return GetEncheresSimpleQuery; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetExpediteursSimpleQuery", function() { return GetExpediteursSimpleQuery; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SetImagePrincipaleQuery", function() { return SetImagePrincipaleQuery; });
 /* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! graphql-tag */ "./node_modules/graphql-tag/src/index.js");
 /* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(graphql_tag__WEBPACK_IMPORTED_MODULE_0__);
@@ -1834,11 +2077,157 @@ mutation deleteImage($id: Int!) {
   }
 }
 `;
+const GetEncheresEtLeursExpediteursQuery = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+query GetEncheresEtLeursExpediteursQuery {
+  getExpediteurs  {
+    id
+    nom
+    cin
+    encheres {
+      villedepart
+      villearrivee
+      marchandise
+      uniteprix
+      prixunitaire
+      statut
+      debutpublication
+      finpublication
+    }
+  }
+}
+`;
+const GetEncheresDUnExpediteur = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+query GetEncheresDUnExpediteur {
+  getEncheresDUnExpediteur(id:1)  {
+    id
+    villedepart
+    villearrivee
+    marchandise
+    uniteprix
+    prixunitaire
+    statut
+    debutpublication
+    finpublication
+    volume
+    commentaire
+      propositions {
+        prixunitaire
+        commentaire
+        date
+        statut
+      }    
+  }
+}
+`;
+const GetPropositionsDUneEnchere = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+query GetPropositionsDUneEnchere {
+  getPropositionsDUneEnchere(id:11)  {
+    id
+    prixunitaire
+    commentaire
+    date
+    statut
+  }
+}
+`;
+const UpdateEnchereMutation = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+mutation UpdateEnchereMutation($enchereInput: EnchereInput!) {
+  updateEnchere(enchereInput: $enchereInput) {
+    id
+    marchandise
+    statut
+    villedepart
+    villearrivee
+    volume
+    commentaire
+    debutpublication
+    finpublication
+  }
+}
+`;
+const CreateEnchereMutation = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+mutation CreateEnchereMutation($enchereInput: EnchereInput!) {
+  createEnchere(enchereInput: $enchereInput) {
+    id
+    marchandise
+    statut
+    villedepart
+    villearrivee
+    volume
+    commentaire
+    uniteprix
+    prixunitaire
+    debutpublication
+    finpublication
+  }
+}
+`;
+const getExpediteursEncheres = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+query getExpediteursEncheres {
+  getExpediteursEncheres(id:1)  {
+    id
+    nom
+    cin
+    encheres {
+      villedepart
+      villearrivee
+      marchandise
+      uniteprix
+      prixunitaire
+      statut
+      debutpublication
+      finpublication
+    }
+  }
+}
+`;
+const GetEncheresSimpleQuery = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+query GetEncheresSimpleOne {
+  getEncheres {
+    id
+		villedepart
+    villearrivee
+    marchandise
+    statut
+  }
+}
+`;
+const GetExpediteursSimpleQuery = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
+query GetExpediteursSimpleOne {
+  getExpediteurs {
+    id
+    type
+    nom
+    prenom
+    marchandise
+    cin
+    ville
+  }
+}
+`;
 const SetImagePrincipaleQuery = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a `
 mutation setImagePrincipale($vehiculeId: Int!, $imageId: Int!) {
   setImagePrincipale(vehiculeId: $vehiculeId, imageId: $imageId)
 }
 `;
+
+
+/***/ }),
+
+/***/ "./src/app/models/enchere.ts":
+/*!***********************************!*\
+  !*** ./src/app/models/enchere.ts ***!
+  \***********************************/
+/*! exports provided: Enchere */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Enchere", function() { return Enchere; });
+class Enchere {
+    constructor() {
+    }
+}
 
 
 /***/ }),
@@ -2073,7 +2462,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\hicha\source\repos\trakfront\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\hwahbi\source\trakfront\src\main.ts */"./src/main.ts");
 
 
 /***/ })

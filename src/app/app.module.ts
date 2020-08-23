@@ -24,6 +24,7 @@ import { TransporteurListComponent } from './components/transporteur-list/transp
 import { VehiculeDetailComponent } from './components/vehicule-detail/vehicule-detail.component';
 import { VehiculeListComponent } from './components/vehicule-list/vehicule-list.component';
 import { VehiculeRouteComponent } from './components/vehicule-route/vehicule-route.component';
+import { MesencheresComponent } from './components/mesencheres/mesencheres.component';
 
 
 
@@ -43,6 +44,9 @@ import { VehiculeRouteComponent } from './components/vehicule-route/vehicule-rou
     VehiculeDetailComponent,
     VehiculeListComponent,
     VehiculeRouteComponent,
+    MesencheresComponent
+
+
     // HttpClientModule
   ],
   imports: [

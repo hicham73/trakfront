@@ -225,7 +225,6 @@ mutation deleteImage($id: Int!) {
 }
 `;
 
-<<<<<<< HEAD
 
 export const GetEncheresEtLeursExpediteursQuery = gql`
 query GetEncheresEtLeursExpediteursQuery {
@@ -364,10 +363,10 @@ query GetExpediteursSimpleOne {
   }
 }
 `; 
-=======
+
 export const SetImagePrincipaleQuery = gql`
 mutation setImagePrincipale($vehiculeId: Int!, $imageId: Int!) {
   setImagePrincipale(vehiculeId: $vehiculeId, imageId: $imageId)
 }
 `;
->>>>>>> f308dc0568711997116deb1d70e4df523e3c6311
+

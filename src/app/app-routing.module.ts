@@ -10,14 +10,11 @@ import { VehiculeListComponent } from './components/vehicule-list/vehicule-list.
 import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
 import { TransporteurListComponent } from './components/transporteur-list/transporteur-list.component';
 import { ImageComponent } from './components/image/image.component'
-<<<<<<< HEAD
 import { MesencheresComponent } from './components/mesencheres/mesencheres.component';
 import { PropositionsComponent } from './components/propositions/propositions.component';
 
 
-=======
 import { VehiculeRouteComponent } from './components/vehicule-route/vehicule-route.component';
->>>>>>> f308dc0568711997116deb1d70e4df523e3c6311
 
 
 const routes: Routes = [
@@ -28,6 +25,8 @@ const routes: Routes = [
   { path: 'image', component: ImageComponent },
   { path: 'transporteurs', component: TransporteurListComponent },
   { path: 'vehicule', component: VehiculeDetailComponent },
+  { path: 'mesencheres', component: MesencheresComponent },
+  { path: 'propositions', component: PropositionsComponent },
   { path: 'transporteur/:id', 
     component: TransporteurComponent,
     children: [
@@ -40,16 +39,11 @@ const routes: Routes = [
           { path: 'detail', component: VehiculeDetailComponent}
         ]
       },
-      { path: 'voyages', component: MySmallMapComponent },
+      { path: 'voyages', component: MySmallMapComponent }
     ] 
-<<<<<<< HEAD
-  },
-  { path: 'mesencheres', component: MesencheresComponent },
-  { path: 'propositions', component: PropositionsComponent },
-
-=======
   }
->>>>>>> f308dc0568711997116deb1d70e4df523e3c6311
+
+  
 ];
 
 @NgModule({

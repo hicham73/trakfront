@@ -1,3 +1,7 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule  } from '@angular/platform-browser'
+import { CommonModule  } from '@angular/common'
+
 import { Component, OnInit,NgZone } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Apollo } from 'apollo-angular'
@@ -17,7 +21,8 @@ import { switchMap } from 'rxjs/operators';
 export class MesencheresComponent implements OnInit {
   apollo: Apollo 
   //encheres:string[][] ; 
-  encheres = [] ; 
+  public encheres = [] ;
+  public list = [1, 2, 3] 
   enchere: Enchere ; 
   //private data: Observable<any>;
   //private createEnchereGQL: CreateEnchereGQL;
@@ -35,6 +40,7 @@ export class MesencheresComponent implements OnInit {
     this.enchere = new Enchere();
     this.apollo.watchQuery({query : GetEncheresDUnExpediteur}).valueChanges.subscribe(({data}) => {
       this.encheres = data['getEncheresDUnExpediteur']
+      console.log(this.encheres);
       for(var i = 0;i<this.encheres.length;i++) {
         var longuedate = ""  + this.encheres[i]['debutpublication'] ;
         this.encheres[i]['debutpublication'] = longuedate.substring(0,10)
@@ -46,7 +52,6 @@ export class MesencheresComponent implements OnInit {
         }
 
       }
-      console.log(this.encheres);
 
     });
   }
