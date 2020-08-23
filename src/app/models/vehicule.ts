@@ -1,5 +1,6 @@
 import { Transporteur } from './transporteur'
 import { Chauffeur } from './chauffeur'
+import { Image } from './image';
 
 export class Vehicule {
 
@@ -15,7 +16,8 @@ export class Vehicule {
    	ville?: string;
     isactive: boolean;
     transporteur: Transporteur;
-    chauffeurs: Chauffeur[];    
+	chauffeurs: Chauffeur[];
+	image: Image    
 
 }
 

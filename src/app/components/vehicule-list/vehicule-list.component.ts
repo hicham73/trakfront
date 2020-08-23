@@ -3,29 +3,29 @@ import { GetVehiculesQuery, UpdateVehiculeQuery, CreateVehiculeQuery, DeleteVehi
 import { Vehicule } from '../../models/vehicule'
 import { Apollo } from 'apollo-angular'
 import { TransporteurStoreService } from 'src/app/services/transporteur-store.service';
-import { Router } from '@angular/router';
+
+import { Router, ActivatedRoute } from '@angular/router'
+import { Route } from '@angular/compiler/src/core';
 
 
 @Component({
-  selector: 'app-vehicule',
-  templateUrl: './vehicule.component.html',
-  styleUrls: ['./vehicule.component.css']
+  selector: 'app-vehicule-list',
+  templateUrl: './vehicule-list.component.html',
+  styleUrls: ['./vehicule-list.component.css']
 })
-export class VehiculeComponent implements OnInit {
-  
+export class VehiculeListComponent implements OnInit {
+
   private apollo: Apollo
-  private router: Router
+  private router: Router;
   private store: TransporteurStoreService
-  private vehicule: Vehicule
-  
-  constructor(apollo: Apollo, router: Router, store: TransporteurStoreService) {
+  private route: Route
+
+  constructor(apollo: Apollo, router: Router, route: ActivatedRoute, store: TransporteurStoreService) {
     this.apollo = apollo
     this.store = store
     this.router = router
-
-   }
-
-
+    this.route = route
+  }
 
   ngOnInit(): void {
     this.store.vehicule = new Vehicule();
@@ -37,6 +37,15 @@ export class VehiculeComponent implements OnInit {
       console.log('goooot vehicules')
       console.log(this.store.vehicules);
     })
+  }
+
+  edit(v) {
+    this.store.vehicule = v;
+    this.router.navigate(['transporteur/' + this.store.transporteur.id, 'vehicule'])
+    
+  }
+  nav(page) {
+    this.router.navigate([page])
   }
 
 }

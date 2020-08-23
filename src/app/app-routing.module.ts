@@ -1,41 +1,55 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MyBarChartComponent } from './components/chart-bar/chart-bar.component';
 import { MySmallMapComponent } from './components/map/map.component';
 import { ReportSampleComponent } from './components/report-sample/report-sample.component';
-import { FormProducteurComponent } from './components/form-producteur/form-producteur.component';
 import { MainComponent } from './components/main/main.component';
 import { InscriptionComponent } from './components/inscription/inscription.component';
-import { FormSample1Component } from './components/form-sample1/form-sample1.component';
 import { TransporteurComponent } from './components/transporteur/transporteur.component';
-import { VehiculeComponent } from './components/vehicule/vehicule.component';
+import { VehiculeDetailComponent } from './components/vehicule-detail/vehicule-detail.component';
+import { VehiculeListComponent } from './components/vehicule-list/vehicule-list.component';
 import { TransporteurDetailComponent } from './components/transporteur-detail/transporteur-detail.component';
+import { TransporteurListComponent } from './components/transporteur-list/transporteur-list.component';
 import { ImageComponent } from './components/image/image.component'
+<<<<<<< HEAD
 import { MesencheresComponent } from './components/mesencheres/mesencheres.component';
 import { PropositionsComponent } from './components/propositions/propositions.component';
 
 
+=======
+import { VehiculeRouteComponent } from './components/vehicule-route/vehicule-route.component';
+>>>>>>> f308dc0568711997116deb1d70e4df523e3c6311
 
 
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'map', component: MySmallMapComponent },
-  { path: 'chart', component: MyBarChartComponent },
-  { path: 'form', component: FormProducteurComponent },
-  { path: 'form1', component: FormSample1Component },
   { path: 'inscription', component: InscriptionComponent },
   { path: 'report', component: ReportSampleComponent },
   { path: 'image', component: ImageComponent },
-  { path: 'transporteur', 
+  { path: 'transporteurs', component: TransporteurListComponent },
+  { path: 'vehicule', component: VehiculeDetailComponent },
+  { path: 'transporteur/:id', 
     component: TransporteurComponent,
     children: [
       { path: '', component: TransporteurDetailComponent },
-      { path: 'vehicule', component: VehiculeComponent },
+      { path: 'enroute', component: VehiculeRouteComponent },
+      { path: 'vehicules', component: VehiculeListComponent },
+      { path: 'vehicule', 
+        component: VehiculeDetailComponent,
+        children: [
+          { path: 'detail', component: VehiculeDetailComponent}
+        ]
+      },
+      { path: 'voyages', component: MySmallMapComponent },
     ] 
+<<<<<<< HEAD
   },
   { path: 'mesencheres', component: MesencheresComponent },
   { path: 'propositions', component: PropositionsComponent },
 
+=======
+  }
+>>>>>>> f308dc0568711997116deb1d70e4df523e3c6311
 ];
 
 @NgModule({

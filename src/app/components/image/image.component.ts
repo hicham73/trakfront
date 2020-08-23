@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { CreateImageQuery, GetImagesQuery, DeleteImageQuery } from '../../graphql/queries'
+import { Component, OnInit, Input } from '@angular/core';
+import { CreateImageQuery, GetImagesQuery, DeleteImageQuery, SetImagePrincipaleQuery } from '../../graphql/queries'
 import { Image } from '../../models/image'
 import { Vehicule } from '../../models/vehicule'
 import { Apollo } from 'apollo-angular'
 import { Observable } from 'rxjs'
+import { TransporteurStoreService } from 'src/app/services/transporteur-store.service';
 
 
 @Component({
@@ -13,32 +14,45 @@ import { Observable } from 'rxjs'
 })
 export class ImageComponent implements OnInit {
 
-  private imageSrc: string = '';
-  private apollo: Apollo;
-  private images: Image[];
+  private imageSrc: string = ''
+  private apollo: Apollo
+  private images: Image[]
+  private vehicule: Vehicule
+  public _vehiculeId: number
+  private store: TransporteurStoreService
   
-  constructor(apollo: Apollo) { 
-    this.apollo = apollo;
+  constructor(apollo: Apollo, store: TransporteurStoreService) { 
+    this.apollo = apollo
+    this.store = store
+  }
+
+  public get vehiculeId(): number {
+      return this._vehiculeId
+  }
+
+  @Input()
+  public set vehiculeId(val: number) {
+    this._vehiculeId = val
   }
 
   handleInputChange(e) {
     var file = e.dataTransfer ? e.dataTransfer.files[0] : e.target.files[0];
-    var pattern = /image-*/;
-    var reader = new FileReader();
+    var pattern = /image-*/
+    var reader = new FileReader()
     if (!file.type.match(pattern)) {
-      alert('invalid format');
+      alert('invalid format')
       return;
     }
     reader.onload = this._handleReaderLoaded.bind(this);
-    reader.readAsDataURL(file);
+    reader.readAsDataURL(file)
   }
 
   _handleReaderLoaded(e) {
     let reader = e.target;
-    this.imageSrc = reader.result;
+    this.imageSrc = reader.result
     console.log(this.imageSrc)
 
-    this.createImage(this.imageSrc);
+    this.createImage(this.imageSrc)
 
 
   }
@@ -71,13 +85,6 @@ export class ImageComponent implements OnInit {
       let i = a['data']['createImage'] as Image
       console.log(i);
       this.images.push(i)
-      // let i = new Image();
-      // i.id = a.id;
-      // i.data = a.data;
-      // i.vehicule = new Vehicule();
-      // // i.vehicule.id = a.vehicule.id;
-
-      // this.images.push(i);
       console.log('vehicule created');
     });
 
@@ -89,6 +96,16 @@ export class ImageComponent implements OnInit {
       console.log(res);
       this.images = res['data']['getImages'];
     })
+  }
+
+  setImagePricipale(image: Image): void {
+      console.log(`vehicule id: ${this.vehiculeId}`)
+      this.apollo.mutate({
+          mutation: SetImagePrincipaleQuery, 
+          variables: { vehiculeId: this._vehiculeId, imageId: image.id} }).subscribe(() => {
+            console.log('set image principale: success');
+          })
+
   }
 
   ngOnInit(): void {

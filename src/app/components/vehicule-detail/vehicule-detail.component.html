@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <h5 class="mb-3">Formulaire vehicule</h5>
+    <form class="needs-validation" novalidate>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="fabricant">Fabricant</label>
+          <input type="text" [(ngModel)]="store.vehicule.fabricant" name="prenom" class="form-control" id="fabricant" placeholder="" value="" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="modele">Modele</label>
+          <input type="text" [(ngModel)]="store.vehicule.modele" name="modele" class="form-control"  id="modele" placeholder="" value="" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="type">Type</label>
+          <select class="custom-select d-block w-100" id="type" required>
+            <option value="">Choisir...</option>
+            <option>Type 1</option>
+            <option>Type 2</option>
+          </select>
+        </div>
+  
+    
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="immatriculation">Immatriculation</label>
+          <input type="text" [(ngModel)]="store.vehicule.immatriculation" name="immatriculation" class="form-control"  id="immatriculation" placeholder="" value="" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="datemisecirculaion">Date mise en circulation</label>
+          <input type="text" class="form-control" id="datemisecirculaion" placeholder="1234 Main St" required>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="ptac">P. Tac <span class="text-muted">(Optional)</span></label>
+          <input type="number"  [(ngModel)]="store.vehicule.ptac" name="email" class="form-control" id="ptac" placeholder="P.Tac">
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="vitesse">P. Tac <span class="text-muted">(Optional)</span></label>
+          <input type="text"  [(ngModel)]="store.vehicule.vitesse" name="email" class="form-control" id="vitesse" placeholder="Vitesse">
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="carburant">Carburant<span class="text-muted">(Optional)</span></label>
+          <input type="text" class="form-control" id="carburant" placeholder="Carburant">
+        </div>
+      </div>
+  
+      <hr class="mb-4">
+      <div class="row">
+        <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="upsertVehicule()">Sauvegarder</button></div>
+        <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="deleteVehicule()">Supprimer</button></div>
+        <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="changeView(1)">Liste des vehicues</button></div>
+      </div>
+  
+      <hr class="mb-4">
+    </form>
+    <app-image [vehiculeId]="store.vehicule.id"></app-image>
+</div>
+  

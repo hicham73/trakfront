@@ -1,14 +1,31 @@
 
-<div class="container">
-
+<div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 order-md-1 mb-4">
+      <div class="w-600 order-md-1 .d-none .d-md-block .d-lg-none">
         <div class="card" style="width: 18rem;">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link" [routerLink]="['.']">Profile Transporteur</a></li>
-              <li class="list-group-item"><a href="#" class="card-link" [routerLink]="['./vehicule']">Vehicules</a></li>
-              <li class="list-group-item">Compte</li>
-              <li class="list-group-item">Preferences</li>
+              <li class="list-group-item">
+                <img src="assets/img/person.svg" alt="" width="25" height="25" style="margin-right:10px">
+                <a href="#" class="card-link" [routerLink]="['.']">Profile Transporteur</a>
+              </li>
+              <li class="list-group-item">
+                <img src="assets/img/truck.svg" alt="" width="25" height="25" style="margin-right:10px">
+                <a href="#" class="card-link" [routerLink]="['./vehicules']">Vehicules</a>
+              </li>
+              <li class="list-group-item">
+                <img src="assets/img/truck.svg" alt="" width="25" height="25" style="margin-right:10px">
+                <a href="#" class="card-link" [routerLink]="['./enroute']">Vehicules en route</a>
+              </li>
+              <li class="list-group-item">
+                <h5>
+                  <img src="assets/img/map.svg" alt="" width="25" height="25" style="margin-right:10px">
+                  <span class="badge badge-info" (click)="nav(['/map'])">Voayges</span>
+                </h5>
+              </li>
+              <li class="list-group-item">
+                <img src="assets/img/code.svg" alt="" width="25" height="25" style="margin-right:10px">
+                Preferences
+              </li>
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">Vehicules</a>
@@ -31,7 +48,7 @@
             </div>            
           </div>
       </div>
-      <div class="col-md-8 order-md-2">
+      <div class="col order-md-2">
         <router-outlet></router-outlet>
       </div>
     </div>

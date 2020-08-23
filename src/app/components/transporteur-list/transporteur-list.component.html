@@ -1,0 +1,27 @@
+<div class="row" *ngFor="let t of store.transporteurs">
+    <div class="col-md-3">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/img/camion3.jpg" alt="" (click)="navToTransporteur(t)">
+    </div>
+    <div class="col-md-9">
+      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      <h4>{{t.fullname}}</h4>
+      <div class="row">
+        <div class="col-md-4"><label class="font-weight-bold">Type</label>{{t.type}}</div>
+        <div class="col-md-4"><label class="font-weight-bold">CIN</label>{{t.cin}}</div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"><label class="font-weight-bold">Nbr. vehicules</label>{{t.nbrvehicules}}</div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-md-4"><label class="font-weight-bold">Carburant</label>{{t.carburant}}</div>
+      </div> -->
+      
+    </div>
+    <hr class="mb-4">
+
+    <div class="row" style="padding:20px">
+    </div>
+
+  </div>
+
