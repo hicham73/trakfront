@@ -92,7 +92,7 @@ export class ImageComponent implements OnInit {
   
   getImages(): void {
 
-    this.apollo.watchQuery({query: GetImagesQuery}).valueChanges.subscribe( res => {
+    this.apollo.watchQuery({query: GetImagesQuery, variables: {vehiculeId: this.vehiculeId} }).valueChanges.subscribe( res => {
       console.log(res);
       this.images = res['data']['getImages'];
     })
@@ -104,7 +104,9 @@ export class ImageComponent implements OnInit {
           mutation: SetImagePrincipaleQuery, 
           variables: { vehiculeId: this._vehiculeId, imageId: image.id} }).subscribe(() => {
             console.log('set image principale: success');
-          })
+      })
+
+      this.store.vehicule.image = image;
 
   }
 

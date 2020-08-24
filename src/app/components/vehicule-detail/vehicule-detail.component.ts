@@ -1,8 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { GetVehiculesQuery, UpdateVehiculeQuery, CreateVehiculeQuery, DeleteVehiculeQuery } from '../../graphql/queries'
+import { GetVehiculesQuery, UpdateVehiculeQuery, CreateVehiculeQuery, DeleteVehiculeQuery, GetAllOptionsQuery } from '../../graphql/queries'
 import { Vehicule } from '../../models/vehicule'
+import { Option } from '../../models/option'
+
 import { Apollo } from 'apollo-angular'
 import { TransporteurStoreService } from 'src/app/services/transporteur-store.service';
+import { Router } from '@angular/router'
+import { AppService } from 'src/app/app.service';
 
 @Component({
   selector: 'app-vehicule-detail',
@@ -13,12 +17,17 @@ export class VehiculeDetailComponent implements OnInit {
 
   private apollo: Apollo
   private view = 1;
+  private router: Router;
+  private appService: AppService;
+
 
   private store: TransporteurStoreService
 
-  constructor(apollo: Apollo, store: TransporteurStoreService) {
+  constructor(apollo: Apollo, store: TransporteurStoreService, router: Router, appService: AppService) {
     this.apollo = apollo
     this.store = store
+    this.router = router
+    this.appService = appService;
   }
 
   createVehicule() {
@@ -51,7 +60,13 @@ export class VehiculeDetailComponent implements OnInit {
   upsertVehicule() {
 
     delete this.store.vehicule['__typename']; // avoid a problem, will find a better solution
-    delete this.store.vehicule.image['__typename']; // avoid a problem, will find a better solution
+    if(this.store.vehicule.image)
+      delete this.store.vehicule.image['__typename']; // avoid a problem, will find a better solution
+    if(this.store.vehicule.transporteur)
+      delete this.store.vehicule.transporteur['__typename']; // avoid a problem, will find a better solution
+
+    console.log('creating a vehicule');
+    console.log(this.store.vehicule);
 
     if(!this.store.vehicule.id) {
       console.log('creating vehicule...');
@@ -112,9 +127,14 @@ export class VehiculeDetailComponent implements OnInit {
     this.store.vehicule = new Vehicule();
   }
 
+  navigateToVehicules() {
+    this.router.navigate(['transporteur/' + this.store.transporteur.id, 'vehicules'])
+    
+  }
 
 
   ngOnInit(): void {
+
   }
 
 }

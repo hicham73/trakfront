@@ -198,8 +198,8 @@ mutation deleteVehicule($id: Int!) {
 `;
 
 export const GetImagesQuery = gql`
-  query GetImages {
-    getImages {
+  query GetImages($vehiculeId: Int!) {
+    getImages(vehiculeId: $vehiculeId) {
       id
       data
     }
@@ -367,6 +367,19 @@ query GetExpediteursSimpleOne {
 export const SetImagePrincipaleQuery = gql`
 mutation setImagePrincipale($vehiculeId: Int!, $imageId: Int!) {
   setImagePrincipale(vehiculeId: $vehiculeId, imageId: $imageId)
+}
+`;
+
+export const GetAllOptionsQuery = gql`
+query GetAllOptions {
+  getAllOptions {
+    id
+    groupid
+    groupname
+    value
+    name
+  }
+  
 }
 `;
 

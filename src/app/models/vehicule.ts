@@ -17,7 +17,11 @@ export class Vehicule {
     isactive: boolean;
     transporteur: Transporteur;
 	chauffeurs: Chauffeur[];
-	image: Image    
+	image: Image
+	
+	constructor() {
+		this.id = 0;
+	}
 
 }
 

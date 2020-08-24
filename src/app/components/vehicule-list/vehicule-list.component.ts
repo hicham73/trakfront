@@ -29,6 +29,7 @@ export class VehiculeListComponent implements OnInit {
 
   ngOnInit(): void {
     this.store.vehicule = new Vehicule();
+    this.store.vehicule.transporteur = this.store.transporteur;
     this.apollo.watchQuery({  
           query: GetVehiculesQuery,
           variables: {transporteurId: this.store.transporteur.id}
@@ -44,6 +45,13 @@ export class VehiculeListComponent implements OnInit {
     this.router.navigate(['transporteur/' + this.store.transporteur.id, 'vehicule'])
     
   }
+
+  add(v) {
+    this.store.vehicule = new Vehicule();
+    this.store.vehicule.transporteur = this.store.transporteur;
+    this.router.navigate(['transporteur/' + this.store.transporteur.id, 'vehicule'])
+  }
+
   nav(page) {
     this.router.navigate([page])
   }

@@ -14,8 +14,7 @@
           <label for="type">Type</label>
           <select class="custom-select d-block w-100" id="type" required>
             <option value="">Choisir...</option>
-            <option>Type 1</option>
-            <option>Type 2</option>
+            <option *ngFor="let o of appService.options" value="{{o.id}}">{{o.name}}</option>
           </select>
         </div>
   
@@ -52,7 +51,7 @@
       <div class="row">
         <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="upsertVehicule()">Sauvegarder</button></div>
         <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="deleteVehicule()">Supprimer</button></div>
-        <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="changeView(1)">Liste des vehicues</button></div>
+        <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="navigateToVehicules()">Liste des vehicues</button></div>
       </div>
   
       <hr class="mb-4">
