@@ -55,3 +55,46 @@
   <div class="row">
     <div class="col-md-3 mb-3"><button class="btn btn-outline-info" (click)="add()">Ajouter un vehicule</button></div>
   </div>
+
+
+<!-- Card deck -->
+<div class="card-deck" >
+
+  <!-- Card -->
+  <div class="card mb-4" *ngFor="let v of store.vehicules" style="width:300px">
+
+    <!--Card image-->
+    <div class="view overlay" style="overflow: hidden">
+      <div style="width: 280px; height: 176px; overflow: hidden">
+        <img src="{{v.image?.data}}">
+      </div>
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h6 class="card-title">{{v.immatriculation}}</h6>
+      <!--Text-->
+      <p class="card-text">
+        {{v.modele}}
+        {{v.carburant}}
+        {{v.vitesse}}
+        {{v.ptac}}
+        {{v.ville}}
+      </p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+
+
+</div>
+<!-- Card deck -->

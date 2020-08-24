@@ -30,6 +30,10 @@
           <label for="datemisecirculaion">Date mise en circulation</label>
           <input type="text" class="form-control" id="datemisecirculaion" placeholder="1234 Main St" required>
         </div>
+        <div class="col-md-4 mb-3">
+          <label for="datemisecirculaion">Ville</label>
+          <input type="text" class="form-control" [(ngModel)]="store.vehicule.ville">
+        </div>
       </div>
   
       <div class="row">
